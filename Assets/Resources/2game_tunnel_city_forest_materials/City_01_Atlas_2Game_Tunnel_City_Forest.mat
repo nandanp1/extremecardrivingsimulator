@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: City_01_Atlas_2Game_Tunnel_City_Forest
+  m_Shader: {fileID: 4800000, guid: 4a00f0794b8149a41944dcfb2fc4b848, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Lightmap1
+        second:
+          m_Texture: {fileID: 2800000, guid: 5a2c6e85cf9f5f2459c3d8f4275c87f7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Lightmap2
+        second:
+          m_Texture: {fileID: 2800000, guid: 15f81239a841a1f48a27f34bb4e5f37a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b53f3be6a56b5ed4fa03f44b9690a8c4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DayNight
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+      data:
+        first:
+          name: _Color1
+        second: {r: 0.7, g: 0.5, b: 0.2, a: 1}
+      data:
+        first:
+          name: _Color2
+        second: {r: 0.5, g: 0.7, b: 0.3, a: 1}
+      data:
+        first:
+          name: _Color3
+        second: {r: 0.3, g: 0.3, b: 0.5, a: 1}

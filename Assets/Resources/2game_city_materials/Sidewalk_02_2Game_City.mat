@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sidewalk_02_2Game_City
+  m_Shader: {fileID: 4800000, guid: c2cf7ef1b5caf9a479d84729c450a5bd, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Lightmap1
+        second:
+          m_Texture: {fileID: 2800000, guid: 2db3a5d15b8aaa444a4cb1ae6555a7c5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Lightmap2
+        second:
+          m_Texture: {fileID: 2800000, guid: b74a9e00f932d864d84bac6dd1fecbb8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 42d5ba3d2d9aa214ca4c9a77f3a7277d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DayNight
+        second: 0
+    m_Colors: {}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Common_FakeDNLight
+  m_Shader: {fileID: 4800000, guid: 23492effb1f3a4b46b19fbfb44748dd6, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _FalloffTex
+        second:
+          m_Texture: {fileID: 2800000, guid: abbd059fc0e71e244a6aaddad81c7d8e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShadowTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4c21bc6cfb2a5b0439b3e544c921fcce, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DayNight
+        second: 0
+      data:
+        first:
+          name: _DayScale
+        second: 0.5178572
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _Light
+        second: 2.857143
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.99156576, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Light
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Max
+        second: {r: 0, g: 0.03137255, b: 0.03137255, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

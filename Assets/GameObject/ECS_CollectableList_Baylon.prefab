@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 479954}
+  - 114: {fileID: 11409266}
+  m_Layer: 0
+  m_Name: ECS_CollectableList_Baylon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 709.59436, y: -116.12555, z: -249.80249}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8f26ade4bb192b4864a10f985f83be, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  categoryName: collection_general
+  categoryIconName:
+  listKind: 1
+  zone: 0
+  collectableType: 1
+  collectionID: 1
+  rewardID: 6
+  totalCollectables: 10
+  numberCollected: 0
+  collectablesList:
+  - {fileID: 11409266, guid: 7504efdc1f18ec34b9dab48af3046cee, type: 2}
+  - {fileID: 11409266, guid: 5aaaf87b968db1347ae1905cc8e2fcba, type: 2}
+  - {fileID: 11409266, guid: a9f78372e4fa05541ace16b2e87f8254, type: 2}
+  - {fileID: 11409266, guid: a3191cbc05a57bb4fbb79c059291c8c5, type: 2}
+  - {fileID: 11409266, guid: add1dd1d25b7d6042b6e0ebaf0b535e0, type: 2}
+  - {fileID: 11409266, guid: 2a48c66bd7b8f3f40b75728e76f7d5f0, type: 2}
+  - {fileID: 11409266, guid: 011cd1d45f0aa824cb3decbf863e4daa, type: 2}
+  - {fileID: 11409266, guid: 272fd7a89d3866a45b17cafea7e381ec, type: 2}
+  - {fileID: 11409266, guid: 1b09ba6608bf4354a9b59b4255e6959b, type: 2}
+  - {fileID: 11409266, guid: de60e1f534a4ee24c9a5db4d53251d0f, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

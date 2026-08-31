@@ -1,0 +1,631 @@
+{
+    "sceneKey": "Extreme_2Game_Airport_Zone1",
+    "scenePath": "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Airport_Zone1.unity",
+    "sceneGuid": "649482f81cebbd14cad0615c3225466d",
+    "originalSourceSha256": "6e1b5310f49579530ac8480aaca81ac24429fcf21b2b20dfab26cca01fee6547",
+    "originalRawBackupPath": "/Users/nandu/Desktop/racingconversion/audit/reconstruction/asset_export/ExportedProject/MigrationBackups/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/2Game_Airport_Zone1.before-legacy-static-batch.6e1b5310f4957953.unity",
+    "expectedRendererCount": 13,
+    "expectedSelectedSubmeshCount": 21,
+    "expectedCombinedMeshCount": 1,
+    "renderers": [
+        {
+            "rendererFileId": 155,
+            "gameObjectFileId": 5,
+            "meshFilterFileId": 223,
+            "gameObjectName": "Airport_Barrier_Base_01",
+            "subsetHexLittleEndian": "07000000",
+            "submeshes": [
+                7
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0439453125,
+                "y": 0.0439453162252903,
+                "z": 0.8648052215576172,
+                "w": 0.6431255340576172
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/155_Airport_Barrier_Base_01.asset",
+            "generatedMeshGuid": "c8f37a3d909ea42678a1799d173f1429",
+            "generatedVertexCount": 86,
+            "generatedIndexCount": 150,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 527.82763671875,
+                "y": -5.144037246704102,
+                "z": -915.1677856445313
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.085693359375,
+                "y": 0.6559629440307617,
+                "z": 0.39227294921875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.07234609127044678,
+                "y": 0.20233124494552613,
+                "z": 0.6559629440307617
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.39228230714797976,
+                "y": 1.0856951475143433,
+                "z": 0.6559629440307617
+            },
+            "maxPositionRoundTripError": 0.00006103701889514923
+        },
+        {
+            "rendererFileId": 156,
+            "gameObjectFileId": 6,
+            "meshFilterFileId": 224,
+            "gameObjectName": "Airport_Barrier_Base_01",
+            "subsetHexLittleEndian": "08000000",
+            "submeshes": [
+                8
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0439453125,
+                "y": 0.0439453162252903,
+                "z": 0.8081645965576172,
+                "w": 0.6431255340576172
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/156_Airport_Barrier_Base_01.asset",
+            "generatedMeshGuid": "94dfcefdc9d564351983adc59e61b779",
+            "generatedVertexCount": 86,
+            "generatedIndexCount": 150,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 524.9146728515625,
+                "y": -5.144037246704102,
+                "z": -914.9785766601563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.085693359375,
+                "y": 0.6559629440307617,
+                "z": 0.39227294921875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.07238179445266724,
+                "y": 0.20235389471054078,
+                "z": 0.6559628844261169
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.39227452874183657,
+                "y": 1.0856937170028687,
+                "z": 0.6559630036354065
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 157,
+            "gameObjectFileId": 7,
+            "meshFilterFileId": 225,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "12000000",
+            "submeshes": [
+                18
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.052734375,
+                "y": 0.052734375,
+                "z": 0.8634754419326782,
+                "w": 0.5837587118148804
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/157_CurvaSignCurva.asset",
+            "generatedMeshGuid": "1dec2d356392a41ceb2489d051c8f6b6",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 598.97509765625,
+                "y": 27.37689208984375,
+                "z": -827.06396484375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.385986328125,
+                "y": 1.2368888854980469,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -1.7881393432617188e-7,
+                "y": 0.009085304103791714,
+                "z": -0.33031022548675539
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925431728363037,
+                "y": 0.02000623755156994,
+                "z": 1.5274546146392823
+            },
+            "maxPositionRoundTripError": 0.00008633781544631347
+        },
+        {
+            "rendererFileId": 161,
+            "gameObjectFileId": 12,
+            "meshFilterFileId": 229,
+            "gameObjectName": "Airport_Finger_01",
+            "subsetHexLittleEndian": "0a0000000b0000000c000000",
+            "submeshes": [
+                10,
+                11,
+                12
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.26953125,
+                "y": 0.26953125,
+                "z": 0.26982879638671877,
+                "w": 0.6926803588867188
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/161_Airport_Finger_01.asset",
+            "generatedMeshGuid": "f73395add609c4a2d9d36c1005a6b9b2",
+            "generatedVertexCount": 334,
+            "generatedIndexCount": 558,
+            "materialCount": 3,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 559.460693359375,
+                "y": -2.5323867797851564,
+                "z": -840.0882568359375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 5.749755859375,
+                "y": 3.2676143646240236,
+                "z": 4.5301513671875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -5.708225250244141,
+                "y": 2.8695881366729738,
+                "z": 3.2676141262054445
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 5.749488830566406,
+                "y": 4.530523300170898,
+                "z": 3.2676138877868654
+            },
+            "maxPositionRoundTripError": 0.00006106588989496231
+        },
+        {
+            "rendererFileId": 169,
+            "gameObjectFileId": 20,
+            "meshFilterFileId": 237,
+            "gameObjectName": "Airplane_01",
+            "subsetHexLittleEndian": "14000000",
+            "submeshes": [
+                20
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.7089844346046448,
+                "y": 0.708984375,
+                "z": -0.013847352005541325,
+                "w": -0.01384735107421875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/169_Airplane_01.asset",
+            "generatedMeshGuid": "a62dc39db91614fa286829f028e72160",
+            "generatedVertexCount": 1872,
+            "generatedIndexCount": 3990,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 537.5985107421875,
+                "y": 0.6785955429077148,
+                "z": -845.928955078125
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 22.236572265625,
+                "y": 6.478595733642578,
+                "z": 18.64599609375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000019073486328125,
+                "y": 6.4785966873168949,
+                "z": 1.7705154418945313
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 18.645936965942384,
+                "y": 6.4785966873168949,
+                "z": 22.23660659790039
+            },
+            "maxPositionRoundTripError": 4.76837158203125e-7
+        },
+        {
+            "rendererFileId": 173,
+            "gameObjectFileId": 24,
+            "meshFilterFileId": 241,
+            "gameObjectName": "Airport_Shelter_01",
+            "subsetHexLittleEndian": "000000000100000002000000",
+            "submeshes": [
+                0,
+                1,
+                2
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.291015625,
+                "y": 0.291015625,
+                "z": 0.6924705505371094,
+                "w": 0.2891502380371094
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/173_Airport_Shelter_01.asset",
+            "generatedMeshGuid": "ed8b864c9761440d7974dbee9455367d",
+            "generatedVertexCount": 128,
+            "generatedIndexCount": 204,
+            "materialCount": 3,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 527.2777709960938,
+                "y": -3.6465611457824709,
+                "z": -911.7335205078125
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.784423828125,
+                "y": 2.153441905975342,
+                "z": 3.8912353515625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.11771416664123535,
+                "y": 1.2864859104156495,
+                "z": 2.15343976020813
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.784400463104248,
+                "y": 3.891235828399658,
+                "z": 2.153441905975342
+            },
+            "maxPositionRoundTripError": 0.000001430511474609375
+        },
+        {
+            "rendererFileId": 181,
+            "gameObjectFileId": 33,
+            "meshFilterFileId": 249,
+            "gameObjectName": "Airport_Finger_01",
+            "subsetHexLittleEndian": "0d0000000e0000000f000000",
+            "submeshes": [
+                13,
+                14,
+                15
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.26953125,
+                "y": 0.26953125,
+                "z": -0.00263214111328125,
+                "w": 0.6926803588867188
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/181_Airport_Finger_01.asset",
+            "generatedMeshGuid": "7de8bc2db24df4677bd4b74731bac87a",
+            "generatedVertexCount": 334,
+            "generatedIndexCount": 558,
+            "materialCount": 3,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 580.9293212890625,
+                "y": -2.5323872566223146,
+                "z": -813.092529296875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.531494140625,
+                "y": 3.267612934112549,
+                "z": 5.7489013671875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -5.708250522613525,
+                "y": 2.8696448802948,
+                "z": 3.267612934112549
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 5.749477863311768,
+                "y": 4.530534267425537,
+                "z": 3.267612934112549
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 190,
+            "gameObjectFileId": 43,
+            "meshFilterFileId": 258,
+            "gameObjectName": "Airport_Shelter_01",
+            "subsetHexLittleEndian": "030000000400000005000000",
+            "submeshes": [
+                3,
+                4,
+                5
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.291015625,
+                "y": 0.291015625,
+                "z": 0.6924705505371094,
+                "w": -0.002841949462890625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/190_Airport_Shelter_01.asset",
+            "generatedMeshGuid": "fc0bfba968c744c9a801db4dec6a56ea",
+            "generatedVertexCount": 128,
+            "generatedIndexCount": 204,
+            "materialCount": 3,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 541.4976806640625,
+                "y": -3.6465611457824709,
+                "z": -911.813232421875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.7845458984375,
+                "y": 2.153441905975342,
+                "z": 3.89129638671875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.1177513599395752,
+                "y": 1.2864735126495362,
+                "z": 2.1534392833709719
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.784423828125,
+                "y": 3.8912086486816408,
+                "z": 2.1534416675567629
+            },
+            "maxPositionRoundTripError": 9.5367431640625e-7
+        },
+        {
+            "rendererFileId": 194,
+            "gameObjectFileId": 47,
+            "meshFilterFileId": 262,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "13000000",
+            "submeshes": [
+                19
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.052734375,
+                "y": 0.052734375,
+                "z": 0.8068348169326782,
+                "w": 0.5837587118148804
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/194_CurvaSignCurva.asset",
+            "generatedMeshGuid": "6fb9f55ade940437191889908e3cfbb6",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 598.0999755859375,
+                "y": 16.63003921508789,
+                "z": -819.1360473632813
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000014007091522216797,
+                "y": 0.00906581711024046,
+                "z": -0.3303481340408325
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925398349761963,
+                "y": 0.020006421953439714,
+                "z": 1.527440071105957
+            },
+            "maxPositionRoundTripError": 0.0000019073486328125
+        },
+        {
+            "rendererFileId": 206,
+            "gameObjectFileId": 63,
+            "meshFilterFileId": 274,
+            "gameObjectName": "Airport_Barrier_Base_01",
+            "subsetHexLittleEndian": "06000000",
+            "submeshes": [
+                6
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0439453125,
+                "y": 0.0439453162252903,
+                "z": 0.7515239715576172,
+                "w": 0.6431255340576172
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/206_Airport_Barrier_Base_01.asset",
+            "generatedMeshGuid": "5ca74480d970640ec80c2197a24e9cfa",
+            "generatedVertexCount": 86,
+            "generatedIndexCount": 150,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 539.1346435546875,
+                "y": -5.144037246704102,
+                "z": -915.058349609375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.085693359375,
+                "y": 0.6559629440307617,
+                "z": 0.39227294921875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.07236307859420777,
+                "y": 0.2023618221282959,
+                "z": 0.6559628844261169
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.3922806680202484,
+                "y": 1.0856945514678956,
+                "z": 0.6559630036354065
+            },
+            "maxPositionRoundTripError": 0.00006103515625
+        },
+        {
+            "rendererFileId": 210,
+            "gameObjectFileId": 67,
+            "meshFilterFileId": 278,
+            "gameObjectName": "Airport_Barrier_Base_01",
+            "subsetHexLittleEndian": "09000000",
+            "submeshes": [
+                9
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0439453125,
+                "y": 0.0439453162252903,
+                "z": 0.6948833465576172,
+                "w": 0.6431255340576172
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/210_Airport_Barrier_Base_01.asset",
+            "generatedMeshGuid": "01fe14094dd3f4e1a9b52ffdf5807317",
+            "generatedVertexCount": 86,
+            "generatedIndexCount": 150,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 513.607666015625,
+                "y": -5.144037246704102,
+                "z": -915.0875244140625
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.085693359375,
+                "y": 0.6559629440307617,
+                "z": 0.39227294921875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.07241824269294739,
+                "y": 0.20236366987228394,
+                "z": 0.6559628844261169
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.39227330684661868,
+                "y": 1.0856938362121583,
+                "z": 0.6559629440307617
+            },
+            "maxPositionRoundTripError": 0.0000863167442730628
+        },
+        {
+            "rendererFileId": 216,
+            "gameObjectFileId": 73,
+            "meshFilterFileId": 284,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "10000000",
+            "submeshes": [
+                16
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.052734375,
+                "y": 0.052734375,
+                "z": 0.7501941919326782,
+                "w": 0.5837587118148804
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/216_CurvaSignCurva.asset",
+            "generatedMeshGuid": "8330762f85f514b56998f4312c6029c1",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 585.3800048828125,
+                "y": 5.630040168762207,
+                "z": -893.6599731445313
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 0.7890625,
+                "y": 2.3579211235046388,
+                "z": 0.95660400390625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000038683414459228516,
+                "y": 0.009057041257619858,
+                "z": -0.33034682273864748
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925533056259155,
+                "y": 0.020024003461003305,
+                "z": 1.527440071105957
+            },
+            "maxPositionRoundTripError": 0.00008632201206637546
+        },
+        {
+            "rendererFileId": 218,
+            "gameObjectFileId": 76,
+            "meshFilterFileId": 286,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "11000000",
+            "submeshes": [
+                17
+            ],
+            "sourceMeshGuid": "43a66c7c8bca7294f91c7106b4635b6d",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.052734375,
+                "y": 0.052734375,
+                "z": 0.6935535669326782,
+                "w": 0.5837587118148804
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone1/Meshes/218_CurvaSignCurva.asset",
+            "generatedMeshGuid": "ce1adaa491ff449848694a084851121c",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 594.6699829101563,
+                "y": 16.63003921508789,
+                "z": -819.1360473632813
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000008821487426757813,
+                "y": 0.00906581711024046,
+                "z": -0.3303481340408325
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925398349761963,
+                "y": 0.020006421953439714,
+                "z": 1.527440071105957
+            },
+            "maxPositionRoundTripError": 0.0000019073486328125
+        }
+    ]
+}

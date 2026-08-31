@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Mat_Forest_Ext_01
+  m_Shader: {fileID: 4800000, guid: 45d6896501f3507469badc8b61d45ddc, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Lightmap1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Lightmap2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4dbda889fd04dc6409b43716dca57bd1, type: 3}
+          m_Scale: {x: 80, y: 80}
+          m_Offset: {x: 1, y: 0}
+      data:
+        first:
+          name: _Texture1
+        second:
+          m_Texture: {fileID: 2800000, guid: 26b61597c49c81648b24c0ff9e2ac307, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture2
+        second:
+          m_Texture: {fileID: 2800000, guid: 09680825add26604995b6e2ced8d8e3c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture3
+        second:
+          m_Texture: {fileID: 2800000, guid: 990a037e26e25d447841eb7c34c53f7e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture4
+        second:
+          m_Texture: {fileID: 2800000, guid: a7dd3c84226c94c45b9427440447a1d0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DayNight
+        second: 0
+      data:
+        first:
+          name: _LightsIntensity
+        second: 2.5
+      data:
+        first:
+          name: _Tiled
+        second: 100
+    m_Colors:
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: 0.4063078, g: 0.34726644, b: 0.45882353, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _LightsColor
+        second: {r: 0.85490197, g: 0.7482178, b: 0.5330565, a: 1}

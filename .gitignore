@@ -1,0 +1,38 @@
+# Unity-generated state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build outputs are published through GitHub Releases
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.aab
+
+# Generated IDE files
+/.vs/
+/.vscode/
+/.idea/
+/.gradle/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS and Unity crash artifacts
+.DS_Store
+sysinfo.txt
+crashlytics-build.properties
+

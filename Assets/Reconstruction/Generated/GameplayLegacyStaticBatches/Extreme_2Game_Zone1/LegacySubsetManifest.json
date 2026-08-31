@@ -1,0 +1,3596 @@
+{
+    "sceneKey": "Extreme_2Game_Zone1",
+    "scenePath": "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Zone1.unity",
+    "sceneGuid": "58a428e50588fa14aa9242fd6e51b587",
+    "originalSourceSha256": "0d8caea5dab8547661ef3d6cf564ddafc430bd78ebc4fa55a11faa48a7b7a373",
+    "originalRawBackupPath": "/Users/nandu/Desktop/racingconversion/audit/reconstruction/asset_export/ExportedProject/MigrationBackups/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/2Game_Zone1.before-legacy-static-batch.0d8caea5dab85476.unity",
+    "expectedRendererCount": 76,
+    "expectedSelectedSubmeshCount": 88,
+    "expectedCombinedMeshCount": 1,
+    "renderers": [
+        {
+            "rendererFileId": 348,
+            "gameObjectFileId": 3,
+            "meshFilterFileId": 486,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "53000000",
+            "submeshes": [
+                83
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0449218787252903,
+                "y": 0.044921875,
+                "z": 0.943359375,
+                "w": 0.810546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/348_Rampa1.asset",
+            "generatedMeshGuid": "2dee45087afa74d028315b5ebed40315",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 330.84051513671877,
+                "y": -4.248014450073242,
+                "z": 85.53605651855469
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.8043212890625,
+                "y": 1.421461582183838,
+                "z": 2.348297119140625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0639495849609375,
+                "y": 0.0894927978515625,
+                "z": 1.4119584560394288
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.348297119140625,
+                "y": 4.8043365478515629,
+                "z": 1.4214613437652588
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 349,
+            "gameObjectFileId": 5,
+            "meshFilterFileId": 487,
+            "gameObjectName": "building_05",
+            "subsetHexLittleEndian": "45000000",
+            "submeshes": [
+                69
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.146484375,
+                "y": 0.146484375,
+                "z": 0.56640625,
+                "w": 0.1806640625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/349_building_05.asset",
+            "generatedMeshGuid": "09460ae64a62d455ba0605eff13d37d4",
+            "generatedVertexCount": 720,
+            "generatedIndexCount": 1128,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 217.79998779296876,
+                "y": 0.5379972457885742,
+                "z": 68.50000762939453
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570945739746094
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00001049041748046875,
+                "y": 6.237994194030762,
+                "z": -0.0000057220458984375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570944786071778
+            },
+            "maxPositionRoundTripError": 0.000017059845049516298
+        },
+        {
+            "rendererFileId": 350,
+            "gameObjectFileId": 6,
+            "meshFilterFileId": 488,
+            "gameObjectName": "Arbol2_LOD0",
+            "subsetHexLittleEndian": "2700000028000000",
+            "submeshes": [
+                39,
+                40
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.02734375,
+                "y": 0.02734375,
+                "z": -0.0001068115234375,
+                "w": 0.9657135009765625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/350_Arbol2_LOD0.asset",
+            "generatedMeshGuid": "0bcc415b81d344ec2b1b22c1454960f7",
+            "generatedVertexCount": 199,
+            "generatedIndexCount": 642,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 133.10227966308595,
+                "y": -1.8889572620391846,
+                "z": 14.104362487792969
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.2153778076171877,
+                "y": 3.865267038345337,
+                "z": 2.022703170776367
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.08753526210784912,
+                "y": 0.023584723472595216,
+                "z": 3.171840190887451
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 1.6507301330566407,
+                "y": 1.8618073463439942,
+                "z": 3.171847343444824
+            },
+            "maxPositionRoundTripError": 0.000023223487005452625
+        },
+        {
+            "rendererFileId": 351,
+            "gameObjectFileId": 7,
+            "meshFilterFileId": 489,
+            "gameObjectName": "Arbol1",
+            "subsetHexLittleEndian": "3300000034000000",
+            "submeshes": [
+                51,
+                52
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0283203125,
+                "y": 0.0283203125,
+                "z": 0.9383659362792969,
+                "w": 0.5448112487792969
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/351_Arbol1.asset",
+            "generatedMeshGuid": "f59cd2eb7d0f847d3b405be1bbd8fe33",
+            "generatedVertexCount": 180,
+            "generatedIndexCount": 606,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 185.7328338623047,
+                "y": -2.0194506645202638,
+                "z": 14.02554988861084
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.3166351318359377,
+                "y": 3.734039783477783,
+                "z": 2.1403627395629885
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.10115253925323487,
+                "y": 0.03874099254608154,
+                "z": 2.693833589553833
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 1.8038878440856934,
+                "y": 1.696300745010376,
+                "z": 2.6938369274139406
+            },
+            "maxPositionRoundTripError": 0.00001553578840685077
+        },
+        {
+            "rendererFileId": 354,
+            "gameObjectFileId": 10,
+            "meshFilterFileId": 492,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "44000000",
+            "submeshes": [
+                68
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.7763671875,
+                "w": 0.4580078125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/354_building_02.asset",
+            "generatedMeshGuid": "a93596490403e465eb96c0881a1afb09",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 327.05999755859377,
+                "y": -0.8881058692932129,
+                "z": 124.16999816894531
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.0374755859375,
+                "y": 4.8118896484375,
+                "z": 11.423934936523438
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0000095367431640625,
+                "y": 4.811891078948975,
+                "z": 0.00000286102294921875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019181251525879,
+                "y": 4.8118896484375,
+                "z": 11.407886505126954
+            },
+            "maxPositionRoundTripError": 0.000034119690099032596
+        },
+        {
+            "rendererFileId": 355,
+            "gameObjectFileId": 11,
+            "meshFilterFileId": 493,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "1a000000",
+            "submeshes": [
+                26
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.72845458984375,
+                "w": 0.88470458984375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/355_Building_02_LOD1.asset",
+            "generatedMeshGuid": "c53ae07ffb455447dbf58fb348a9f468",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 235.9600067138672,
+                "y": -0.9003558158874512,
+                "z": 159.97999572753907
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.015960693359375,
+                "y": 4.799640655517578,
+                "z": 10.175003051757813
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 4.799641132354736,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015960693359375,
+                "y": 4.799640655517578,
+                "z": 10.175003051757813
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 356,
+            "gameObjectFileId": 12,
+            "meshFilterFileId": 494,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "19000000",
+            "submeshes": [
+                25
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.72845458984375,
+                "w": 0.81341552734375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/356_Building_02_LOD1.asset",
+            "generatedMeshGuid": "140fa8ac84242435d8e13b161d2ccf76",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 179.80001831054688,
+                "y": -0.9003558158874512,
+                "z": 63.70000076293945
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.18121337890625,
+                "y": 4.799640655517578,
+                "z": 10.022274017333985
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.00001049041748046875,
+                "y": 4.799641132354736,
+                "z": -0.0000171661376953125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015970230102539,
+                "y": 4.799640655517578,
+                "z": 10.175004959106446
+            },
+            "maxPositionRoundTripError": 0.000017059845049516298
+        },
+        {
+            "rendererFileId": 357,
+            "gameObjectFileId": 14,
+            "meshFilterFileId": 495,
+            "gameObjectName": "Building_04_LOD1",
+            "subsetHexLittleEndian": "18000000",
+            "submeshes": [
+                24
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.87103271484375,
+                "w": 0.87298583984375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/357_Building_04_LOD1.asset",
+            "generatedMeshGuid": "e936384fc9e0b4609b9efbe933333d0b",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 51.86000061035156,
+                "y": 1.614551067352295,
+                "z": 150.52999877929688
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.518898010253907,
+                "y": 7.314545154571533,
+                "z": 6.1134033203125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000005245208740234375,
+                "y": 7.314548015594482,
+                "z": 0.00000476837158203125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 6.106064796447754,
+                "y": 7.314545154571533,
+                "z": 11.515003204345704
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 361,
+            "gameObjectFileId": 18,
+            "meshFilterFileId": 499,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "43000000",
+            "submeshes": [
+                67
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.6484375,
+                "w": 0.4580078125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/361_building_02.asset",
+            "generatedMeshGuid": "a984064f792a543e6a9e523c4f09aa5b",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 179.3000030517578,
+                "y": -0.8881058692932129,
+                "z": 146.60000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.409011840820313,
+                "y": 4.8118896484375,
+                "z": 10.02044677734375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000171661376953125,
+                "y": 4.811891078948975,
+                "z": -9.5367431640625e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.01917839050293,
+                "y": 4.8118896484375,
+                "z": 11.40788459777832
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 362,
+            "gameObjectFileId": 19,
+            "meshFilterFileId": 500,
+            "gameObjectName": "Rampa2",
+            "subsetHexLittleEndian": "56000000",
+            "submeshes": [
+                86
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0458984375,
+                "y": 0.0458984375,
+                "z": 0.9462890625,
+                "w": 0.671875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/362_Rampa2.asset",
+            "generatedMeshGuid": "1a77e04f425524d6684ec43bee8aa5d2",
+            "generatedVertexCount": 1468,
+            "generatedIndexCount": 3756,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 264.0297546386719,
+                "y": -4.809501647949219,
+                "z": -3.465785026550293
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.449676513671875,
+                "y": 1.143324851989746,
+                "z": 4.602457046508789
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.027904987335205079,
+                "y": 0.10742950439453125,
+                "z": 0.9574568867683411
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.409510612487793,
+                "y": 4.570107936859131,
+                "z": 0.9626837968826294
+            },
+            "maxPositionRoundTripError": 0.00003253392787883058
+        },
+        {
+            "rendererFileId": 364,
+            "gameObjectFileId": 21,
+            "meshFilterFileId": 502,
+            "gameObjectName": "building_05",
+            "subsetHexLittleEndian": "48000000",
+            "submeshes": [
+                72
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.146484375,
+                "y": 0.146484375,
+                "z": 0.4140625,
+                "w": 0.1806640625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/364_building_05.asset",
+            "generatedMeshGuid": "5aef151ed626a4d95b26a3bc43a3ba8f",
+            "generatedVertexCount": 720,
+            "generatedIndexCount": 1128,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 178.5,
+                "y": 0.5379972457885742,
+                "z": 85.4000015258789
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570945739746094
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00000858306884765625,
+                "y": 6.237994194030762,
+                "z": -9.5367431640625e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570945739746094
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 366,
+            "gameObjectFileId": 23,
+            "meshFilterFileId": 504,
+            "gameObjectName": "Building_04_LOD1",
+            "subsetHexLittleEndian": "14000000",
+            "submeshes": [
+                20
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.87103271484375,
+                "w": 0.80950927734375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/366_Building_04_LOD1.asset",
+            "generatedMeshGuid": "df9b7d178ba744a98b17c20112d27f66",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 216.8800048828125,
+                "y": 1.614551067352295,
+                "z": 160.36000061035157
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 6.107452392578125,
+                "y": 7.314545154571533,
+                "z": 11.5157470703125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000057220458984375,
+                "y": 7.314548015594482,
+                "z": 9.5367431640625e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 6.106060028076172,
+                "y": 7.314545154571533,
+                "z": 11.515005111694336
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 368,
+            "gameObjectFileId": 25,
+            "meshFilterFileId": 506,
+            "gameObjectName": "building_05",
+            "subsetHexLittleEndian": "47000000",
+            "submeshes": [
+                71
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.146484375,
+                "y": 0.146484375,
+                "z": 0.26171875,
+                "w": 0.1806640625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/368_building_05.asset",
+            "generatedMeshGuid": "6811faf191aa346639dcb86274014134",
+            "generatedVertexCount": 720,
+            "generatedIndexCount": 1128,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 308.26995849609377,
+                "y": 0.5379972457885742,
+                "z": 162.60000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.57415771484375,
+                "y": 6.237992286682129,
+                "z": 12.36083984375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 6.237994194030762,
+                "z": 0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.357580184936524,
+                "y": 6.237992286682129,
+                "z": 12.57095718383789
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 370,
+            "gameObjectFileId": 27,
+            "meshFilterFileId": 508,
+            "gameObjectName": "building_06",
+            "subsetHexLittleEndian": "46000000",
+            "submeshes": [
+                70
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703050494194,
+                "y": 0.1220703125,
+                "z": 0.5205078125,
+                "w": 0.8408203125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/370_building_06.asset",
+            "generatedMeshGuid": "33ff39eece657435ba03288bc85c3f3e",
+            "generatedVertexCount": 405,
+            "generatedIndexCount": 723,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 178.60400390625,
+                "y": 0.9464430809020996,
+                "z": 109.57926940917969
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.45166015625,
+                "y": 6.646439075469971,
+                "z": 6.3998260498046879
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.004000663757324219,
+                "y": 6.646440029144287,
+                "z": 0.020723342895507814
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.449047088623047,
+                "y": 6.646439075469971,
+                "z": 6.39472770690918
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 371,
+            "gameObjectFileId": 28,
+            "meshFilterFileId": 509,
+            "gameObjectName": "building_05",
+            "subsetHexLittleEndian": "3f000000",
+            "submeshes": [
+                63
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.146484375,
+                "y": 0.146484375,
+                "z": 0.75,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/371_building_05.asset",
+            "generatedMeshGuid": "ef374ce77bb37463bbed7161d5a06fdf",
+            "generatedVertexCount": 720,
+            "generatedIndexCount": 1128,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 217.79998779296876,
+                "y": 0.5379972457885742,
+                "z": 98.4000015258789
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570945739746094
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00000667572021484375,
+                "y": 6.237994194030762,
+                "z": 0.00000286102294921875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.357575416564942,
+                "y": 6.237992286682129,
+                "z": 12.570945739746094
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 373,
+            "gameObjectFileId": 30,
+            "meshFilterFileId": 511,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "1c000000",
+            "submeshes": [
+                28
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.72845458984375,
+                "w": 0.74212646484375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/373_Building_02_LOD1.asset",
+            "generatedMeshGuid": "11dd856aa47444839a99756c998e0b33",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 268.39996337890627,
+                "y": -0.9003558158874512,
+                "z": 124.10000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.0198974609375,
+                "y": 4.799640655517578,
+                "z": 10.178863525390625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00000476837158203125,
+                "y": 4.799641132354736,
+                "z": -0.00000476837158203125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015981674194336,
+                "y": 4.799640655517578,
+                "z": 10.175004959106446
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 376,
+            "gameObjectFileId": 33,
+            "meshFilterFileId": 514,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "55000000",
+            "submeshes": [
+                85
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0449218787252903,
+                "y": 0.044921875,
+                "z": 0.8017578125,
+                "w": 0.9296875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/376_Rampa1.asset",
+            "generatedMeshGuid": "488e919f699ce4db094c69da2fc3f878",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.34307861328125,
+                "y": 5.1855340003967289,
+                "z": 152.2412109375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.348297119140625,
+                "y": 1.421461582183838,
+                "z": 4.804351806640625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.06395578384399414,
+                "y": 0.08948612213134766,
+                "z": 1.4119571447372437
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.348297595977783,
+                "y": 4.804352760314941,
+                "z": 1.421462059020996
+            },
+            "maxPositionRoundTripError": 0.0000171661376953125
+        },
+        {
+            "rendererFileId": 378,
+            "gameObjectFileId": 36,
+            "meshFilterFileId": 516,
+            "gameObjectName": "Building_03_LOD1",
+            "subsetHexLittleEndian": "1b000000",
+            "submeshes": [
+                27
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.09375,
+                "y": 0.09375,
+                "z": 0.90283203125,
+                "w": 0.32958984375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/378_Building_03_LOD1.asset",
+            "generatedMeshGuid": "b3e61592d94df4df3b8b8c5821a9e1d9",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 300.79998779296877,
+                "y": 1.357837200164795,
+                "z": 122.92999267578125
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 18.646636962890626,
+                "y": 7.057833671569824,
+                "z": 10.175003051757813
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000095367431640625,
+                "y": 7.057834148406982,
+                "z": -0.0000057220458984375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 18.646644592285158,
+                "y": 7.057833671569824,
+                "z": 10.175004959106446
+            },
+            "maxPositionRoundTripError": 0.000031456798751605675
+        },
+        {
+            "rendererFileId": 380,
+            "gameObjectFileId": 39,
+            "meshFilterFileId": 518,
+            "gameObjectName": "Arbusto_LOD1",
+            "subsetHexLittleEndian": "290000002a000000",
+            "submeshes": [
+                41,
+                42
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0048828125,
+                "y": 0.0048828125,
+                "z": 0.5419731140136719,
+                "w": 0.16892623901367188
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/380_Arbusto_LOD1.asset",
+            "generatedMeshGuid": "21d5dd5a7e9cb41a5910d31af3ba9ffa",
+            "generatedVertexCount": 133,
+            "generatedIndexCount": 246,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 105.33766174316406,
+                "y": -4.545931339263916,
+                "z": 35.81602478027344
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 0.96148681640625,
+                "y": 1.0392022132873536,
+                "z": 0.9566421508789063
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.08831095695495606,
+                "y": 0.05851030349731445,
+                "z": 3.83050799369812
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 3.305943489074707,
+                "y": 3.2895381450653078,
+                "z": 3.572481870651245
+            },
+            "maxPositionRoundTripError": 0.00001080012498277938
+        },
+        {
+            "rendererFileId": 381,
+            "gameObjectFileId": 40,
+            "meshFilterFileId": 519,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "13000000",
+            "submeshes": [
+                19
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.87298583984375,
+                "w": 0.67083740234375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/381_Building_02_LOD1.asset",
+            "generatedMeshGuid": "7b47aa89cfd1c42e1ac72682124aa653",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 284.3399963378906,
+                "y": -0.9003558158874512,
+                "z": 162.2100067138672
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.015960693359375,
+                "y": 4.799640655517578,
+                "z": 10.175003051757813
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 4.799641132354736,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015960693359375,
+                "y": 4.799640655517578,
+                "z": 10.175003051757813
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 382,
+            "gameObjectFileId": 41,
+            "meshFilterFileId": 520,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "05000000",
+            "submeshes": [
+                5
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.80072021484375,
+                "w": 0.67083740234375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/382_Building_02_LOD1.asset",
+            "generatedMeshGuid": "8c6c2675f00b14710a36f1a8dccc866e",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 52.30000305175781,
+                "y": -0.9003558158874512,
+                "z": 55.970001220703128
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.176624298095704,
+                "y": 4.799640655517578,
+                "z": 10.017616271972657
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000019073486328125,
+                "y": 4.799641132354736,
+                "z": -0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015966415405274,
+                "y": 4.799640655517578,
+                "z": 10.175000190734864
+            },
+            "maxPositionRoundTripError": 0.000003814697265625
+        },
+        {
+            "rendererFileId": 384,
+            "gameObjectFileId": 43,
+            "meshFilterFileId": 522,
+            "gameObjectName": "Arbusto_LOD1",
+            "subsetHexLittleEndian": "2300000024000000",
+            "submeshes": [
+                35,
+                36
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0048828125,
+                "y": 0.0048828125,
+                "z": 0.5243949890136719,
+                "w": 0.16892623901367188
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/384_Arbusto_LOD1.asset",
+            "generatedMeshGuid": "6676bebae9c3d4555ba78ca29e4e78ff",
+            "generatedVertexCount": 133,
+            "generatedIndexCount": 246,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 101.15765380859375,
+                "y": -4.545931339263916,
+                "z": 35.65602111816406
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 0.96148681640625,
+                "y": 1.0392022132873536,
+                "z": 0.9566421508789063
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.08829331398010254,
+                "y": 0.05850529670715332,
+                "z": 3.8304789066314699
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 3.305943489074707,
+                "y": 3.2895383834838869,
+                "z": 3.572481632232666
+            },
+            "maxPositionRoundTripError": 0.000013787109310214873
+        },
+        {
+            "rendererFileId": 385,
+            "gameObjectFileId": 44,
+            "meshFilterFileId": 523,
+            "gameObjectName": "building_04",
+            "subsetHexLittleEndian": "3e000000",
+            "submeshes": [
+                62
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.123046875,
+                "y": 0.123046875,
+                "z": 0.26171875,
+                "w": 0.59375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/385_building_04.asset",
+            "generatedMeshGuid": "d73df813dbaef42e78550c99e8d3d77a",
+            "generatedVertexCount": 285,
+            "generatedIndexCount": 453,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 51.860145568847659,
+                "y": 1.76942777633667,
+                "z": 150.77093505859376
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.053787231445313,
+                "y": 7.469422817230225,
+                "z": 6.273406982421875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.24092674255371095,
+                "y": 7.469424724578857,
+                "z": 0.00001430511474609375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 6.266347885131836,
+                "y": 7.469422817230225,
+                "z": 11.049787521362305
+            },
+            "maxPositionRoundTripError": 0.000011444091796875
+        },
+        {
+            "rendererFileId": 386,
+            "gameObjectFileId": 45,
+            "meshFilterFileId": 524,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "3d000000",
+            "submeshes": [
+                61
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.5205078125,
+                "w": 0.4580078125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/386_building_02.asset",
+            "generatedMeshGuid": "fbb6845ef7d514041b729c88915df1a7",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 179.8000030517578,
+                "y": -0.8881058692932129,
+                "z": 63.70000457763672
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.414077758789063,
+                "y": 4.8118896484375,
+                "z": 10.026237487792969
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.00000858306884765625,
+                "y": 4.811891078948975,
+                "z": -0.0000133514404296875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019173622131348,
+                "y": 4.8118896484375,
+                "z": 11.407886505126954
+            },
+            "maxPositionRoundTripError": 0.000017059845049516298
+        },
+        {
+            "rendererFileId": 387,
+            "gameObjectFileId": 47,
+            "meshFilterFileId": 525,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "42000000",
+            "submeshes": [
+                66
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.392578125,
+                "w": 0.8388671875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/387_building_02.asset",
+            "generatedMeshGuid": "d4ee17b07d6e44a19a2de75868bcc956",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 179.3000030517578,
+                "y": -0.8881058692932129,
+                "z": 126.5999984741211
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.409011840820313,
+                "y": 4.8118896484375,
+                "z": 10.020454406738282
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000095367431640625,
+                "y": 4.811891078948975,
+                "z": 0.000003814697265625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019176483154297,
+                "y": 4.8118896484375,
+                "z": 11.40788459777832
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 389,
+            "gameObjectFileId": 49,
+            "meshFilterFileId": 527,
+            "gameObjectName": "Building_06_LOD1",
+            "subsetHexLittleEndian": "07000000",
+            "submeshes": [
+                7
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.064453125,
+                "y": 0.064453125,
+                "z": 0.800750732421875,
+                "w": 0.809539794921875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/389_Building_06_LOD1.asset",
+            "generatedMeshGuid": "cb47a1f62a82c4e628d3901e04036b2a",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 182.9199981689453,
+                "y": 0.9499907493591309,
+                "z": 170.64999389648438
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 5.4328155517578129,
+                "y": 6.649985313415527,
+                "z": 12.335556030273438
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00000667572021484375,
+                "y": 6.649987697601318,
+                "z": -0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.33432388305664,
+                "y": 6.649985313415527,
+                "z": 5.430002212524414
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 390,
+            "gameObjectFileId": 50,
+            "meshFilterFileId": 528,
+            "gameObjectName": "Building_05_LOD1",
+            "subsetHexLittleEndian": "01000000",
+            "submeshes": [
+                1
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.08203125,
+                "y": 0.0820312425494194,
+                "z": 0.64227294921875,
+                "w": 0.67059326171875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/390_Building_05_LOD1.asset",
+            "generatedMeshGuid": "41d95b760d2244cfd9d5415ae544e05e",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 217.79998779296876,
+                "y": 0.49225711822509768,
+                "z": 68.5
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.19500732421875,
+                "y": 6.192251205444336,
+                "z": 12.167572021484375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.00000476837158203125,
+                "y": 6.192254066467285,
+                "z": -0.000003814697265625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.167577743530274,
+                "y": 6.192251205444336,
+                "z": 12.195009231567383
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 395,
+            "gameObjectFileId": 59,
+            "meshFilterFileId": 533,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "00000000",
+            "submeshes": [
+                0
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.72845458984375,
+                "w": 0.67083740234375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/395_Building_02_LOD1.asset",
+            "generatedMeshGuid": "0f2d27df38c1c4bc08471523be439cf7",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 179.3000030517578,
+                "y": -0.9003558158874512,
+                "z": 146.60000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.176132202148438,
+                "y": 4.799640655517578,
+                "z": 10.017120361328125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00001621246337890625,
+                "y": 4.799641132354736,
+                "z": -9.5367431640625e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015975952148438,
+                "y": 4.799640655517578,
+                "z": 10.175005912780762
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 397,
+            "gameObjectFileId": 61,
+            "meshFilterFileId": 535,
+            "gameObjectName": "building_05",
+            "subsetHexLittleEndian": "41000000",
+            "submeshes": [
+                65
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.146484375,
+                "y": 0.146484375,
+                "z": 0.59765625,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/397_building_05.asset",
+            "generatedMeshGuid": "53b8baa90d7f24fc89d59b41665cb668",
+            "generatedVertexCount": 720,
+            "generatedIndexCount": 1128,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 259.8999938964844,
+                "y": 0.5379972457885742,
+                "z": 162.6999969482422
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.573577880859375,
+                "y": 6.237992286682129,
+                "z": 12.360244750976563
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.00000858306884765625,
+                "y": 6.237994194030762,
+                "z": -0.00000286102294921875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.357568740844727,
+                "y": 6.237992286682129,
+                "z": 12.570947647094727
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 399,
+            "gameObjectFileId": 64,
+            "meshFilterFileId": 537,
+            "gameObjectName": "Arbol1_LOD1",
+            "subsetHexLittleEndian": "2f00000030000000",
+            "submeshes": [
+                47,
+                48
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.013671875,
+                "y": 0.013671875,
+                "z": 0.48627471923828127,
+                "w": 0.15033721923828126
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/399_Arbol1_LOD1.asset",
+            "generatedMeshGuid": "937a86c2bafb941efbe84a48d2dde102",
+            "generatedVertexCount": 115,
+            "generatedIndexCount": 261,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 99.13812255859375,
+                "y": -2.019339084625244,
+                "z": 13.82059383392334
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.3166351318359377,
+                "y": 3.7339282035827638,
+                "z": 2.1403627395629885
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.1443263292312622,
+                "y": 0.03874015808105469,
+                "z": 2.693845510482788
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 1.7380250692367554,
+                "y": 1.6963037252426148,
+                "z": 2.6938376426696779
+            },
+            "maxPositionRoundTripError": 0.00001537753632874228
+        },
+        {
+            "rendererFileId": 400,
+            "gameObjectFileId": 65,
+            "meshFilterFileId": 538,
+            "gameObjectName": "Building_05_LOD1",
+            "subsetHexLittleEndian": "02000000",
+            "submeshes": [
+                2
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.08203125,
+                "y": 0.0820312425494194,
+                "z": 0.90008544921875,
+                "w": 0.58367919921875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/400_Building_05_LOD1.asset",
+            "generatedMeshGuid": "11fe687aee58e437ebf45738c5e92cc1",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 308.2699890136719,
+                "y": 0.49225711822509768,
+                "z": 162.60000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.170745849609375,
+                "y": 6.192251205444336,
+                "z": 12.19818115234375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -9.5367431640625e-7,
+                "y": 6.192254066467285,
+                "z": 0.0000152587890625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.167576789855957,
+                "y": 6.192251205444336,
+                "z": 12.195005416870118
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 402,
+            "gameObjectFileId": 68,
+            "meshFilterFileId": 540,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "40000000",
+            "submeshes": [
+                64
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.392578125,
+                "w": 0.7119140625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/402_building_02.asset",
+            "generatedMeshGuid": "7bd615d5405984523982d567c730642f",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 268.3999938964844,
+                "y": -0.8881058692932129,
+                "z": 124.09999084472656
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.0235595703125,
+                "y": 4.8118896484375,
+                "z": 11.4117431640625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000003814697265625,
+                "y": 4.811891078948975,
+                "z": -0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019173622131348,
+                "y": 4.8118896484375,
+                "z": 11.407880783081055
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 403,
+            "gameObjectFileId": 69,
+            "meshFilterFileId": 541,
+            "gameObjectName": "Building_05_LOD1",
+            "subsetHexLittleEndian": "09000000",
+            "submeshes": [
+                9
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.08203125,
+                "y": 0.0820312425494194,
+                "z": 0.81414794921875,
+                "w": 0.58367919921875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/403_Building_05_LOD1.asset",
+            "generatedMeshGuid": "fb36ca1fd2a7f490f8efe740057849a3",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 50.3800048828125,
+                "y": 0.49225711822509768,
+                "z": 82.72000122070313
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.19500732421875,
+                "y": 6.192251205444336,
+                "z": 12.167572021484375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000003814697265625,
+                "y": 6.192254066467285,
+                "z": -0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.167577743530274,
+                "y": 6.192251205444336,
+                "z": 12.195005416870118
+            },
+            "maxPositionRoundTripError": 0.000008529922524758149
+        },
+        {
+            "rendererFileId": 404,
+            "gameObjectFileId": 70,
+            "meshFilterFileId": 542,
+            "gameObjectName": "Arbol2_LOD1",
+            "subsetHexLittleEndian": "2100000022000000",
+            "submeshes": [
+                33,
+                34
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.013671875,
+                "y": 0.013671874068677426,
+                "z": 0.44525909423828127,
+                "w": 0.15033721923828126
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/404_Arbol2_LOD1.asset",
+            "generatedMeshGuid": "77fc09bc30ff54b8aa39956461a6ad70",
+            "generatedVertexCount": 138,
+            "generatedIndexCount": 303,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 133.10226440429688,
+                "y": -1.8889572620391846,
+                "z": 14.104362487792969
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.21539306640625,
+                "y": 3.865267038345337,
+                "z": 2.022703170776367
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.10701966285705567,
+                "y": 0.023584723472595216,
+                "z": 3.171840190887451
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 1.6312456130981446,
+                "y": 1.8618073463439942,
+                "z": 3.171847343444824
+            },
+            "maxPositionRoundTripError": 0.000023223487005452625
+        },
+        {
+            "rendererFileId": 405,
+            "gameObjectFileId": 71,
+            "meshFilterFileId": 543,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "10000000",
+            "submeshes": [
+                16
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.64251708984375,
+                "w": 0.90032958984375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/405_Building_02_LOD1.asset",
+            "generatedMeshGuid": "78bb9fc080e074171a21889de5c2b54a",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.58000183105469,
+                "y": -0.9003558158874512,
+                "z": 169.58999633789063
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.182174682617188,
+                "y": 4.799640655517578,
+                "z": 10.02325439453125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000019073486328125,
+                "y": 4.799641132354736,
+                "z": -0.00001621246337890625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015975952148438,
+                "y": 4.799640655517578,
+                "z": 10.175003051757813
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 409,
+            "gameObjectFileId": 75,
+            "meshFilterFileId": 547,
+            "gameObjectName": "Building_07",
+            "subsetHexLittleEndian": "51000000",
+            "submeshes": [
+                81
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.2568359375,
+                "y": 0.2568359375,
+                "z": 0.0,
+                "w": 0.5234375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/409_Building_07.asset",
+            "generatedMeshGuid": "0029e3e07f107489cb6021b74a6c33d7",
+            "generatedVertexCount": 1841,
+            "generatedIndexCount": 3000,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 337.89996337890627,
+                "y": 14.47038459777832,
+                "z": 161.1999969482422
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 16.044189453125,
+                "y": 20.170379638671876,
+                "z": 11.895401000976563
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000152587890625,
+                "y": 20.170381546020509,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 16.044204711914064,
+                "y": 20.170379638671876,
+                "z": 11.895401000976563
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 410,
+            "gameObjectFileId": 76,
+            "meshFilterFileId": 548,
+            "gameObjectName": "Arbusto_LOD0",
+            "subsetHexLittleEndian": "1f00000020000000",
+            "submeshes": [
+                31,
+                32
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.01171875,
+                "y": 0.01171875,
+                "z": 0.5419464111328125,
+                "w": 0.1503448486328125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/410_Arbusto_LOD0.asset",
+            "generatedMeshGuid": "4ef035881a94a400bb88e3999c02ced4",
+            "generatedVertexCount": 200,
+            "generatedIndexCount": 678,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 105.81587219238281,
+                "y": -4.593713760375977,
+                "z": 30.396024703979493
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.0048675537109376,
+                "y": 1.086984634399414,
+                "z": 0.9566440582275391
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.15097403526306153,
+                "y": 0.05851292610168457,
+                "z": 3.6662328243255617
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 3.4552555084228517,
+                "y": 3.2895383834838869,
+                "z": 3.736729383468628
+            },
+            "maxPositionRoundTripError": 0.00001452789092581952
+        },
+        {
+            "rendererFileId": 411,
+            "gameObjectFileId": 78,
+            "meshFilterFileId": 549,
+            "gameObjectName": "building_04",
+            "subsetHexLittleEndian": "4f000000",
+            "submeshes": [
+                79
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.123046875,
+                "y": 0.123046875,
+                "z": 0.26171875,
+                "w": 0.46484375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/411_building_04.asset",
+            "generatedMeshGuid": "71d5bdad4e10f42ff8b83c7716e041e5",
+            "generatedVertexCount": 285,
+            "generatedIndexCount": 453,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 217.12094116210938,
+                "y": 1.76942777633667,
+                "z": 160.3599853515625
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 6.267669677734375,
+                "y": 7.469422817230225,
+                "z": 11.050537109375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.24094343185424806,
+                "y": 7.469424724578857,
+                "z": 0.00000858306884765625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 6.266343593597412,
+                "y": 7.469422817230225,
+                "z": 11.049781799316407
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 413,
+            "gameObjectFileId": 80,
+            "meshFilterFileId": 551,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "12000000",
+            "submeshes": [
+                18
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.64251708984375,
+                "w": 0.82904052734375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/413_Building_02_LOD1.asset",
+            "generatedMeshGuid": "ea77d7f1061724a24ae72a96a3bc3373",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 52.27000427246094,
+                "y": -0.9003558158874512,
+                "z": 110.45999908447266
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.176624298095704,
+                "y": 4.799640655517578,
+                "z": 10.017616271972657
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 9.5367431640625e-7,
+                "y": 4.799641132354736,
+                "z": 9.5367431640625e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015966415405274,
+                "y": 4.799640655517578,
+                "z": 10.175000190734864
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 415,
+            "gameObjectFileId": 82,
+            "meshFilterFileId": 553,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "50000000",
+            "submeshes": [
+                80
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.392578125,
+                "w": 0.5849609375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/415_building_02.asset",
+            "generatedMeshGuid": "78c01801c8aca4d818a30480d5c76fae",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 52.30000305175781,
+                "y": -0.8881058692932129,
+                "z": 55.970001220703128
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.409500122070313,
+                "y": 4.8118896484375,
+                "z": 10.021018981933594
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 9.5367431640625e-7,
+                "y": 4.811891078948975,
+                "z": -0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019171714782715,
+                "y": 4.8118896484375,
+                "z": 11.407878875732422
+            },
+            "maxPositionRoundTripError": 0.000005394796517066425
+        },
+        {
+            "rendererFileId": 417,
+            "gameObjectFileId": 84,
+            "meshFilterFileId": 555,
+            "gameObjectName": "Cube",
+            "subsetHexLittleEndian": "57000000",
+            "submeshes": [
+                87
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.025390625,
+                "y": 0.025390625,
+                "z": 0.03407670930027962,
+                "w": 0.9657173156738281
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/417_Cube.asset",
+            "generatedMeshGuid": "69d3b026eb4264431af372f3d6569da2",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 106.44001770019531,
+                "y": 3.0789947509765627,
+                "z": 180.29000854492188
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 5.141716003417969,
+                "y": 0.7719810009002686,
+                "z": 0.5499725341796875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -5.960464477539063e-8,
+                "y": -5.960464477539063e-8,
+                "z": 0.0000036954879760742189
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.5000002384185791,
+                "y": 0.5000000596046448,
+                "z": 0.5000020861625671
+            },
+            "maxPositionRoundTripError": 2.384185791015625e-7
+        },
+        {
+            "rendererFileId": 423,
+            "gameObjectFileId": 92,
+            "meshFilterFileId": 561,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "54000000",
+            "submeshes": [
+                84
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0449218787252903,
+                "y": 0.044921875,
+                "z": 0.8017578125,
+                "w": 0.8779296875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/423_Rampa1.asset",
+            "generatedMeshGuid": "999525142df7a4c41b5025303c395b39",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 138.8609619140625,
+                "y": -4.244473934173584,
+                "z": 95.85223388671875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.348297119140625,
+                "y": 1.421461582183838,
+                "z": 4.804351806640625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0639495849609375,
+                "y": 0.08949756622314453,
+                "z": 1.4119774103164673
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.348297119140625,
+                "y": 4.804352760314941,
+                "z": 1.421461582183838
+            },
+            "maxPositionRoundTripError": 0.000020542773199849762
+        },
+        {
+            "rendererFileId": 424,
+            "gameObjectFileId": 93,
+            "meshFilterFileId": 562,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "11000000",
+            "submeshes": [
+                17
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.64251708984375,
+                "w": 0.75775146484375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/424_Building_02_LOD1.asset",
+            "generatedMeshGuid": "191e19b4991ec4815867c484e4e70a03",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 346.79998779296877,
+                "y": -0.9003558158874512,
+                "z": 123.93999481201172
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.01800537109375,
+                "y": 4.799640655517578,
+                "z": 10.177009582519532
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000011444091796875,
+                "y": 4.799641132354736,
+                "z": 0.00000667572021484375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.01596736907959,
+                "y": 4.799640655517578,
+                "z": 10.174999237060547
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 425,
+            "gameObjectFileId": 94,
+            "meshFilterFileId": 563,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "4b000000",
+            "submeshes": [
+                75
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.392578125,
+                "w": 0.4580078125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/425_building_02.asset",
+            "generatedMeshGuid": "09ba4a75063a7406480f1c6fbef90625",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 284.3399963378906,
+                "y": -0.8881058692932129,
+                "z": 162.2100067138672
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.0191650390625,
+                "y": 4.8118896484375,
+                "z": 11.407882690429688
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 4.811891078948975,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.0191650390625,
+                "y": 4.8118896484375,
+                "z": 11.407882690429688
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 426,
+            "gameObjectFileId": 95,
+            "meshFilterFileId": 564,
+            "gameObjectName": "building_06",
+            "subsetHexLittleEndian": "4a000000",
+            "submeshes": [
+                74
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703050494194,
+                "y": 0.1220703125,
+                "z": 0.5205078125,
+                "w": 0.712890625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/426_building_06.asset",
+            "generatedMeshGuid": "5b5d92f1f274e4ab3bbf4455dd48a14d",
+            "generatedVertexCount": 405,
+            "generatedIndexCount": 723,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 252.8892822265625,
+                "y": 0.9464430809020996,
+                "z": 122.906005859375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 6.39471435546875,
+                "y": 6.646439075469971,
+                "z": 12.44903564453125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.004002571105957031,
+                "y": 6.646440029144287,
+                "z": 0.02073049545288086
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.449041366577149,
+                "y": 6.646439075469971,
+                "z": 6.3947248458862309
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 429,
+            "gameObjectFileId": 99,
+            "meshFilterFileId": 567,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "49000000",
+            "submeshes": [
+                73
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.7763671875,
+                "w": 0.3310546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/429_building_02.asset",
+            "generatedMeshGuid": "1738db3d3532d42c989e70f4e7b1fbda",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.58000183105469,
+                "y": -0.8881058692932129,
+                "z": 169.58999633789063
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.415054321289063,
+                "y": 4.8118896484375,
+                "z": 10.02734375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00000286102294921875,
+                "y": 4.811891078948975,
+                "z": -0.00001621246337890625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.01917839050293,
+                "y": 4.8118896484375,
+                "z": 11.407879829406739
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 430,
+            "gameObjectFileId": 100,
+            "meshFilterFileId": 568,
+            "gameObjectName": "building_03",
+            "subsetHexLittleEndian": "4e000000",
+            "submeshes": [
+                78
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1787109375,
+                "y": 0.1787109375,
+                "z": 0.26171875,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/430_building_03.asset",
+            "generatedMeshGuid": "0fdda6735211d471bb1dd7bc514d0cf0",
+            "generatedVertexCount": 1273,
+            "generatedIndexCount": 2304,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 300.79998779296877,
+                "y": 1.4599332809448243,
+                "z": 122.92999267578125
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 19.00872802734375,
+                "y": 7.1599273681640629,
+                "z": 12.043899536132813
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.00000476837158203125,
+                "y": 7.159930229187012,
+                "z": 0.0000209808349609375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.04389762878418,
+                "y": 7.1599273681640629,
+                "z": 19.00870132446289
+            },
+            "maxPositionRoundTripError": 0.000031456798751605675
+        },
+        {
+            "rendererFileId": 433,
+            "gameObjectFileId": 105,
+            "meshFilterFileId": 571,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "4d000000",
+            "submeshes": [
+                77
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.6484375,
+                "w": 0.3310546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/433_building_02.asset",
+            "generatedMeshGuid": "54eabcf26db20490bbf311aec6321f87",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 51.09999084472656,
+                "y": -0.8881058692932129,
+                "z": 169.60000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.417129516601563,
+                "y": 4.8118896484375,
+                "z": 10.02972412109375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 4.811891078948975,
+                "z": 0.00001430511474609375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019174575805664,
+                "y": 4.8118896484375,
+                "z": 11.407878875732422
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 434,
+            "gameObjectFileId": 106,
+            "meshFilterFileId": 572,
+            "gameObjectName": "building_03",
+            "subsetHexLittleEndian": "4c000000",
+            "submeshes": [
+                76
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1787109375,
+                "y": 0.1787109375,
+                "z": 0.0,
+                "w": 0.78515625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/434_building_03.asset",
+            "generatedMeshGuid": "aca8385a8062d47cdb70b4a548ce20d9",
+            "generatedVertexCount": 1273,
+            "generatedIndexCount": 2304,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 109.59999084472656,
+                "y": 1.4599332809448243,
+                "z": 123.4800033569336
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.047576904296875,
+                "y": 7.1599273681640629,
+                "z": 19.010536193847658
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 7.159930229187012,
+                "z": -0.0000057220458984375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.043893814086914,
+                "y": 7.1599273681640629,
+                "z": 19.008697509765626
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 442,
+            "gameObjectFileId": 119,
+            "meshFilterFileId": 580,
+            "gameObjectName": "Building_03_LOD1",
+            "subsetHexLittleEndian": "0c000000",
+            "submeshes": [
+                12
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.09375,
+                "y": 0.09375,
+                "z": 0.90087890625,
+                "w": -0.00146484375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/442_Building_03_LOD1.asset",
+            "generatedMeshGuid": "0983565d6255542298e42f7b32e46a9d",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 109.59999084472656,
+                "y": 1.357837200164795,
+                "z": 123.47999572753906
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.178939819335938,
+                "y": 7.057833671569824,
+                "z": 18.648773193359376
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000003814697265625,
+                "y": 7.057834148406982,
+                "z": 0.00000762939453125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 18.64663314819336,
+                "y": 7.057833671569824,
+                "z": 10.175003051757813
+            },
+            "maxPositionRoundTripError": 0.00001078959303413285
+        },
+        {
+            "rendererFileId": 443,
+            "gameObjectFileId": 120,
+            "meshFilterFileId": 581,
+            "gameObjectName": "Building_07_LOD1",
+            "subsetHexLittleEndian": "0d000000",
+            "submeshes": [
+                13
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1298828125,
+                "y": 0.1298828125,
+                "z": 0.2596893310546875,
+                "w": 0.3290252685546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/443_Building_07_LOD1.asset",
+            "generatedMeshGuid": "188428faeda0d42afa0235c42b341212",
+            "generatedVertexCount": 48,
+            "generatedIndexCount": 72,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 337.8999938964844,
+                "y": 14.525396347045899,
+                "z": 161.1999969482422
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 16.1231689453125,
+                "y": 20.225391387939454,
+                "z": 9.014999389648438
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 20.225393295288087,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 16.1231689453125,
+                "y": 20.225391387939454,
+                "z": 9.014999389648438
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 444,
+            "gameObjectFileId": 121,
+            "meshFilterFileId": 582,
+            "gameObjectName": "Building_06_LOD1",
+            "subsetHexLittleEndian": "0a000000",
+            "submeshes": [
+                10
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.064453125,
+                "y": 0.064453125,
+                "z": 0.871063232421875,
+                "w": 0.742156982421875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/444_Building_06_LOD1.asset",
+            "generatedMeshGuid": "4e4129b22b8f54b429e206b584062dfb",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 252.91000366210938,
+                "y": 0.9499907493591309,
+                "z": 122.91000366210938
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 5.42999267578125,
+                "y": 6.649985313415527,
+                "z": 12.334320068359375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 6.649987697601318,
+                "z": 0.000007152557373046875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.334321975708008,
+                "y": 6.649985313415527,
+                "z": 5.4300007820129398
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 450,
+            "gameObjectFileId": 128,
+            "meshFilterFileId": 588,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "52000000",
+            "submeshes": [
+                82
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0449218787252903,
+                "y": 0.044921875,
+                "z": 0.9423828125,
+                "w": 0.7431640625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/450_Rampa1.asset",
+            "generatedMeshGuid": "dced3153114f34762ad3c84b78d0d0e7",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 117.76625061035156,
+                "y": 9.995532035827637,
+                "z": 110.14765930175781
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.447967529296875,
+                "y": 1.421462059020996,
+                "z": 5.0795440673828129
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0639791488647461,
+                "y": 0.08949470520019531,
+                "z": 1.411955714225769
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.3482978343963625,
+                "y": 4.804351806640625,
+                "z": 1.421462059020996
+            },
+            "maxPositionRoundTripError": 0.000027918398700421676
+        },
+        {
+            "rendererFileId": 451,
+            "gameObjectFileId": 129,
+            "meshFilterFileId": 589,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "0b000000",
+            "submeshes": [
+                11
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.90130615234375,
+                "w": 0.09759521484375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/451_Building_02_LOD1.asset",
+            "generatedMeshGuid": "888ad2501718f4d9b9d17c92c491d768",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 51.09999084472656,
+                "y": -0.9003558158874512,
+                "z": 169.60000610351563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.184249877929688,
+                "y": 4.799640655517578,
+                "z": 10.025360107421875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -9.5367431640625e-7,
+                "y": 4.799641132354736,
+                "z": 0.0000133514404296875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015966415405274,
+                "y": 4.799640655517578,
+                "z": 10.175002098083496
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 453,
+            "gameObjectFileId": 133,
+            "meshFilterFileId": 591,
+            "gameObjectName": "building_05",
+            "subsetHexLittleEndian": "35000000",
+            "submeshes": [
+                53
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.146484375,
+                "y": 0.146484375,
+                "z": 0.4453125,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/453_building_05.asset",
+            "generatedMeshGuid": "87002a598f6544e7e8418be8e7f2da11",
+            "generatedVertexCount": 720,
+            "generatedIndexCount": 1128,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 50.3800048828125,
+                "y": 0.5379972457885742,
+                "z": 82.72000122070313
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570953369140625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.00000762939453125,
+                "y": 6.237994194030762,
+                "z": 0.0000019073486328125
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.357574462890625,
+                "y": 6.237992286682129,
+                "z": 12.570945739746094
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 454,
+            "gameObjectFileId": 134,
+            "meshFilterFileId": 592,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "37000000",
+            "submeshes": [
+                55
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.5205078125,
+                "w": 0.3310546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/454_building_02.asset",
+            "generatedMeshGuid": "61ec6121973884320a9b1fb5b6df891b",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 235.9600067138672,
+                "y": -0.8881058692932129,
+                "z": 159.97999572753907
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.0191650390625,
+                "y": 4.8118896484375,
+                "z": 11.407882690429688
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 4.811891078948975,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.0191650390625,
+                "y": 4.8118896484375,
+                "z": 11.407882690429688
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 456,
+            "gameObjectFileId": 137,
+            "meshFilterFileId": 594,
+            "gameObjectName": "Building_05_LOD1",
+            "subsetHexLittleEndian": "0e000000",
+            "submeshes": [
+                14
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.08203125,
+                "y": 0.0820312425494194,
+                "z": 0.72821044921875,
+                "w": 0.58367919921875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/456_Building_05_LOD1.asset",
+            "generatedMeshGuid": "c60cf2cef13454e5b9de0136f22fe922",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 178.5,
+                "y": 0.49225711822509768,
+                "z": 85.4000015258789
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.19500732421875,
+                "y": 6.192251205444336,
+                "z": 12.167579650878907
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 6.192254066467285,
+                "z": -0.000003814697265625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.167577743530274,
+                "y": 6.192251205444336,
+                "z": 12.195009231567383
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 457,
+            "gameObjectFileId": 138,
+            "meshFilterFileId": 595,
+            "gameObjectName": "Arbusto_LOD0",
+            "subsetHexLittleEndian": "1d0000001e000000",
+            "submeshes": [
+                29,
+                30
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.01171875,
+                "y": 0.01171875,
+                "z": 0.5243682861328125,
+                "w": 0.1503448486328125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/457_Arbusto_LOD0.asset",
+            "generatedMeshGuid": "1ea80381ec83f4b49a2753aba18d8db3",
+            "generatedVertexCount": 200,
+            "generatedIndexCount": 678,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 101.17585754394531,
+                "y": -4.593713760375977,
+                "z": 35.65602111816406
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.0048675537109376,
+                "y": 1.086984634399414,
+                "z": 0.9566421508789063
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.15096282958984376,
+                "y": 0.05850529670715332,
+                "z": 3.6662328243255617
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 3.4552555084228517,
+                "y": 3.2895383834838869,
+                "z": 3.736729145050049
+            },
+            "maxPositionRoundTripError": 0.000013353568647289649
+        },
+        {
+            "rendererFileId": 461,
+            "gameObjectFileId": 145,
+            "meshFilterFileId": 599,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "3b000000",
+            "submeshes": [
+                59
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.392578125,
+                "w": 0.3310546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/461_building_02.asset",
+            "generatedMeshGuid": "d012997e8bd3f46ce9ae79d96e8a772f",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.58000183105469,
+                "y": -0.8881058692932129,
+                "z": 150.50997924804688
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.415054321289063,
+                "y": 4.8118896484375,
+                "z": 10.02734375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0000095367431640625,
+                "y": 4.811891078948975,
+                "z": -0.00001811981201171875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.01917839050293,
+                "y": 4.8118896484375,
+                "z": 11.407879829406739
+            },
+            "maxPositionRoundTripError": 0.0000275081729341764
+        },
+        {
+            "rendererFileId": 462,
+            "gameObjectFileId": 146,
+            "meshFilterFileId": 600,
+            "gameObjectName": "Arbol1_LOD1",
+            "subsetHexLittleEndian": "3100000032000000",
+            "submeshes": [
+                49,
+                50
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.013671875,
+                "y": 0.013671875,
+                "z": 0.46576690673828127,
+                "w": 0.15033721923828126
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/462_Arbol1_LOD1.asset",
+            "generatedMeshGuid": "7269efaa84dca4f0b9212a89451a4c34",
+            "generatedVertexCount": 115,
+            "generatedIndexCount": 261,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 185.7328338623047,
+                "y": -2.019339084625244,
+                "z": 14.02554988861084
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.3166351318359377,
+                "y": 3.7339282035827638,
+                "z": 2.1403627395629885
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.14433586597442628,
+                "y": 0.03873729705810547,
+                "z": 2.6938328742980959
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 1.7380285263061524,
+                "y": 1.6963012218475342,
+                "z": 2.6938376426696779
+            },
+            "maxPositionRoundTripError": 0.000008792442713456694
+        },
+        {
+            "rendererFileId": 465,
+            "gameObjectFileId": 149,
+            "meshFilterFileId": 603,
+            "gameObjectName": "Building_07_LOD1",
+            "subsetHexLittleEndian": "0f000000",
+            "submeshes": [
+                15
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1298828125,
+                "y": 0.1298828125,
+                "z": 0.8475799560546875,
+                "w": 0.1786346435546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/465_Building_07_LOD1.asset",
+            "generatedMeshGuid": "c46c75c9b0ad7446c9956f3fd4e9c298",
+            "generatedVertexCount": 48,
+            "generatedIndexCount": 72,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.30000305175781,
+                "y": 14.525396347045899,
+                "z": 81.80000305175781
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 9.02130126953125,
+                "y": 20.225391387939454,
+                "z": 16.126686096191408
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000019073486328125,
+                "y": 20.225393295288087,
+                "z": -0.0000095367431640625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 16.123165130615236,
+                "y": 20.225391387939454,
+                "z": 9.015005111694336
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 466,
+            "gameObjectFileId": 151,
+            "meshFilterFileId": 604,
+            "gameObjectName": "Arbusto_LOD1",
+            "subsetHexLittleEndian": "2b0000002c000000",
+            "submeshes": [
+                43,
+                44
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0048828125,
+                "y": 0.0048828125,
+                "z": 0.5068168640136719,
+                "w": 0.16892623901367188
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/466_Arbusto_LOD1.asset",
+            "generatedMeshGuid": "f02eb8cf6bb6840da8222af066fd03da",
+            "generatedVertexCount": 133,
+            "generatedIndexCount": 246,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 105.79766845703125,
+                "y": -4.545931339263916,
+                "z": 30.396024703979493
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 0.96148681640625,
+                "y": 1.0392022132873536,
+                "z": 0.9566440582275391
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.08830451965332031,
+                "y": 0.05851292610168457,
+                "z": 3.8304789066314699
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 3.305943489074707,
+                "y": 3.2895383834838869,
+                "z": 3.572481632232666
+            },
+            "maxPositionRoundTripError": 0.000014927364645700436
+        },
+        {
+            "rendererFileId": 468,
+            "gameObjectFileId": 153,
+            "meshFilterFileId": 606,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "03000000",
+            "submeshes": [
+                3
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.18255615234375,
+                "w": 0.92669677734375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/468_Building_02_LOD1.asset",
+            "generatedMeshGuid": "8367dd8b19a6b4a6d8aea7979c055819",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 327.05999755859377,
+                "y": -0.9003558158874512,
+                "z": 124.16999816894531
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.03228759765625,
+                "y": 4.799640655517578,
+                "z": 10.191055297851563
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.00000858306884765625,
+                "y": 4.799641132354736,
+                "z": 0.0000057220458984375
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015983581542969,
+                "y": 4.799640655517578,
+                "z": 10.175007820129395
+            },
+            "maxPositionRoundTripError": 0.000031456798751605675
+        },
+        {
+            "rendererFileId": 469,
+            "gameObjectFileId": 154,
+            "meshFilterFileId": 607,
+            "gameObjectName": "Building_05_LOD1",
+            "subsetHexLittleEndian": "08000000",
+            "submeshes": [
+                8
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.08203125,
+                "y": 0.0820312425494194,
+                "z": 0.64227294921875,
+                "w": 0.58367919921875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/469_Building_05_LOD1.asset",
+            "generatedMeshGuid": "8096a92eed988458b8727b0d5a7d5e68",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 259.8999938964844,
+                "y": 0.49225711822509768,
+                "z": 162.70001220703126
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.170166015625,
+                "y": 6.192251205444336,
+                "z": 12.197601318359375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 9.5367431640625e-7,
+                "y": 6.192254066467285,
+                "z": 0.000003814697265625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.167581558227539,
+                "y": 6.192251205444336,
+                "z": 12.1950101852417
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 470,
+            "gameObjectFileId": 155,
+            "meshFilterFileId": 608,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "06000000",
+            "submeshes": [
+                6
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.18255615234375,
+                "w": 0.85540771484375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/470_Building_02_LOD1.asset",
+            "generatedMeshGuid": "8bf8084376ab940a4b7a3daabc16ebae",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 179.3000030517578,
+                "y": -0.9003558158874512,
+                "z": 126.5999984741211
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.176132202148438,
+                "y": 4.799640655517578,
+                "z": 10.017112731933594
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000011444091796875,
+                "y": 4.799641132354736,
+                "z": 0.000003814697265625
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015972137451172,
+                "y": 4.799640655517578,
+                "z": 10.175004959106446
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 471,
+            "gameObjectFileId": 156,
+            "meshFilterFileId": 609,
+            "gameObjectName": "Building_07_LOD1",
+            "subsetHexLittleEndian": "04000000",
+            "submeshes": [
+                4
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1298828125,
+                "y": 0.1298828125,
+                "z": 0.7167205810546875,
+                "w": 0.1786346435546875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/471_Building_07_LOD1.asset",
+            "generatedMeshGuid": "9f73a0a502cea41469aea0a2b26865f8",
+            "generatedVertexCount": 48,
+            "generatedIndexCount": 72,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 221.17999267578126,
+                "y": 14.525396347045899,
+                "z": 122.83000183105469
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 16.1231689453125,
+                "y": 20.225391387939454,
+                "z": 9.014999389648438
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 20.225393295288087,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 16.1231689453125,
+                "y": 20.225391387939454,
+                "z": 9.014999389648438
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 473,
+            "gameObjectFileId": 158,
+            "meshFilterFileId": 611,
+            "gameObjectName": "Arbusto_LOD0",
+            "subsetHexLittleEndian": "2500000026000000",
+            "submeshes": [
+                37,
+                38
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.01171875,
+                "y": 0.01171875,
+                "z": 0.5067901611328125,
+                "w": 0.1503448486328125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/473_Arbusto_LOD0.asset",
+            "generatedMeshGuid": "160f11d8cc89245fca5987f257501dfb",
+            "generatedVertexCount": 200,
+            "generatedIndexCount": 678,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 105.35586547851563,
+                "y": -4.593713760375977,
+                "z": 35.81602478027344
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.0048675537109376,
+                "y": 1.086984634399414,
+                "z": 0.9566421508789063
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.15098071098327638,
+                "y": 0.05851030349731445,
+                "z": 3.66626238822937
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 3.4552555084228517,
+                "y": 3.2895381450653078,
+                "z": 3.736729383468628
+            },
+            "maxPositionRoundTripError": 0.000010831658073584549
+        },
+        {
+            "rendererFileId": 474,
+            "gameObjectFileId": 159,
+            "meshFilterFileId": 612,
+            "gameObjectName": "building_06",
+            "subsetHexLittleEndian": "39000000",
+            "submeshes": [
+                57
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703050494194,
+                "y": 0.1220703125,
+                "z": 0.5205078125,
+                "w": 0.5849609375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/474_building_06.asset",
+            "generatedMeshGuid": "ca85feaa1f1ac42a0884692fd5cbc362",
+            "generatedVertexCount": 405,
+            "generatedIndexCount": 723,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 182.9407196044922,
+                "y": 0.9464430809020996,
+                "z": 170.65399169921876
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 6.3975677490234379,
+                "y": 6.646439075469971,
+                "z": 12.45050048828125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.004008293151855469,
+                "y": 6.646440029144287,
+                "z": 0.020721435546875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.44904613494873,
+                "y": 6.646439075469971,
+                "z": 6.3947272300720219
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 475,
+            "gameObjectFileId": 160,
+            "meshFilterFileId": 613,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "38000000",
+            "submeshes": [
+                56
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.26171875,
+                "w": 0.849609375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/475_building_02.asset",
+            "generatedMeshGuid": "cd1e93ff037dd420fa4b72b85bec2450",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 52.27000427246094,
+                "y": -0.8881058692932129,
+                "z": 110.45999908447266
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.409500122070313,
+                "y": 4.8118896484375,
+                "z": 10.021018981933594
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 9.5367431640625e-7,
+                "y": 4.811891078948975,
+                "z": 9.5367431640625e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019172668457032,
+                "y": 4.8118896484375,
+                "z": 11.407878875732422
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 476,
+            "gameObjectFileId": 162,
+            "meshFilterFileId": 614,
+            "gameObjectName": "Building_05_LOD1",
+            "subsetHexLittleEndian": "15000000",
+            "submeshes": [
+                21
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.08203125,
+                "y": 0.0820312425494194,
+                "z": 0.90301513671875,
+                "w": 0.45672607421875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/476_Building_05_LOD1.asset",
+            "generatedMeshGuid": "2f44bdf8e8557498897ff607f9b37273",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 217.79998779296876,
+                "y": 0.49225711822509768,
+                "z": 98.4000015258789
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.19500732421875,
+                "y": 6.192251205444336,
+                "z": 12.167579650878907
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 9.5367431640625e-7,
+                "y": 6.192254066467285,
+                "z": -0.000011444091796875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.167577743530274,
+                "y": 6.192251205444336,
+                "z": 12.195009231567383
+            },
+            "maxPositionRoundTripError": 0.0000152587890625
+        },
+        {
+            "rendererFileId": 477,
+            "gameObjectFileId": 163,
+            "meshFilterFileId": 615,
+            "gameObjectName": "building_02",
+            "subsetHexLittleEndian": "3a000000",
+            "submeshes": [
+                58
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.1220703125,
+                "y": 0.1220703125,
+                "z": 0.26171875,
+                "w": 0.72265625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/477_building_02.asset",
+            "generatedMeshGuid": "fa1d57133cc53472e99f7cbcef54b2b3",
+            "generatedVertexCount": 167,
+            "generatedIndexCount": 255,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 346.79998779296877,
+                "y": -0.8881058692932129,
+                "z": 123.94000244140625
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.021484375,
+                "y": 4.8118896484375,
+                "z": 11.409881591796875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000011444091796875,
+                "y": 4.811891078948975,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.019168853759766,
+                "y": 4.8118896484375,
+                "z": 11.407879829406739
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        },
+        {
+            "rendererFileId": 478,
+            "gameObjectFileId": 165,
+            "meshFilterFileId": 616,
+            "gameObjectName": "Building_06_LOD1",
+            "subsetHexLittleEndian": "17000000",
+            "submeshes": [
+                23
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.064453125,
+                "y": 0.064453125,
+                "z": 0.800750732421875,
+                "w": 0.742156982421875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/478_Building_06_LOD1.asset",
+            "generatedMeshGuid": "006fdd252c63347629f78e4565fd8650",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 178.60000610351563,
+                "y": 0.9499907493591309,
+                "z": 109.5999984741211
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 12.3365478515625,
+                "y": 6.649985313415527,
+                "z": 5.43505859375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000019073486328125,
+                "y": 6.649987697601318,
+                "z": -4.76837158203125e-7
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 12.334322929382325,
+                "y": 6.649985313415527,
+                "z": 5.430001258850098
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 479,
+            "gameObjectFileId": 166,
+            "meshFilterFileId": 617,
+            "gameObjectName": "Building_07",
+            "subsetHexLittleEndian": "3c000000",
+            "submeshes": [
+                60
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.2568359375,
+                "y": 0.2568359375,
+                "z": 0.0,
+                "w": 0.26171875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/479_Building_07.asset",
+            "generatedMeshGuid": "12d00d755d7d64b0e9e6bfc35ef6b450",
+            "generatedVertexCount": 1841,
+            "generatedIndexCount": 3000,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 221.17999267578126,
+                "y": 14.47038459777832,
+                "z": 122.83000183105469
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 16.044189453125,
+                "y": 20.170379638671876,
+                "z": 11.895401000976563
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 20.170381546020509,
+                "z": 0.0
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 16.044204711914064,
+                "y": 20.170379638671876,
+                "z": 11.895401000976563
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 481,
+            "gameObjectFileId": 170,
+            "meshFilterFileId": 619,
+            "gameObjectName": "Arbol1",
+            "subsetHexLittleEndian": "2d0000002e000000",
+            "submeshes": [
+                45,
+                46
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.0283203125,
+                "y": 0.0283203125,
+                "z": 0.9041862487792969,
+                "w": 0.5448112487792969
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/481_Arbol1.asset",
+            "generatedMeshGuid": "bc54167f90e1d47d49772d16d20e2018",
+            "generatedVertexCount": 180,
+            "generatedIndexCount": 606,
+            "materialCount": 2,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 99.13812255859375,
+                "y": -2.0194506645202638,
+                "z": 13.82059383392334
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.3166351318359377,
+                "y": 3.734039783477783,
+                "z": 2.1403627395629885
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.10114586353302002,
+                "y": 0.0387415885925293,
+                "z": 2.6938459873199465
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 1.8038897514343262,
+                "y": 1.696303129196167,
+                "z": 2.6938366889953615
+            },
+            "maxPositionRoundTripError": 0.000019073486328125
+        },
+        {
+            "rendererFileId": 482,
+            "gameObjectFileId": 171,
+            "meshFilterFileId": 620,
+            "gameObjectName": "Building_02_LOD1",
+            "subsetHexLittleEndian": "16000000",
+            "submeshes": [
+                22
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.06640625,
+                "y": 0.06640625,
+                "z": 0.18255615234375,
+                "w": 0.78411865234375
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/482_Building_02_LOD1.asset",
+            "generatedMeshGuid": "5269c4991a236470d9a9804b44b5b253",
+            "generatedVertexCount": 24,
+            "generatedIndexCount": 36,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.58000183105469,
+                "y": -0.9003558158874512,
+                "z": 150.510009765625
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 10.182174682617188,
+                "y": 4.799640655517578,
+                "z": 10.023262023925782
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0000095367431640625,
+                "y": 4.799641132354736,
+                "z": -0.00001811981201171875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 10.015975952148438,
+                "y": 4.799640655517578,
+                "z": 10.175003051757813
+            },
+            "maxPositionRoundTripError": 0.0000275081729341764
+        },
+        {
+            "rendererFileId": 484,
+            "gameObjectFileId": 173,
+            "meshFilterFileId": 622,
+            "gameObjectName": "Building_07",
+            "subsetHexLittleEndian": "36000000",
+            "submeshes": [
+                54
+            ],
+            "sourceMeshGuid": "64c3169324cb40b4fbf9746c1269eee6",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.2568359375,
+                "y": 0.2568359375,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone1/Meshes/484_Building_07.asset",
+            "generatedMeshGuid": "4edaac5e1509a4e269a46c0aa19d2ccf",
+            "generatedVertexCount": 1841,
+            "generatedIndexCount": 3000,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 108.30000305175781,
+                "y": 14.47038459777832,
+                "z": 81.80000305175781
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 11.897659301757813,
+                "y": 20.170379638671876,
+                "z": 16.047958374023439
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0000057220458984375,
+                "y": 20.170381546020509,
+                "z": -0.00001049041748046875
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 16.044206619262697,
+                "y": 20.170379638671876,
+                "z": 11.895397186279297
+            },
+            "maxPositionRoundTripError": 0.00000762939453125
+        }
+    ]
+}

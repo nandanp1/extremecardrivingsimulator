@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 479954}
+  - 114: {fileID: 11409266}
+  m_Layer: 0
+  m_Name: ECS_CollectableList_Airport_Buharia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 709.59436, y: -116.12555, z: -249.80249}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8f26ade4bb192b4864a10f985f83be, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  categoryName: collection_airport
+  categoryIconName: icon_airport
+  listKind: 2
+  zone: 3
+  collectableType: 3
+  collectionID: 1
+  rewardID: 6
+  totalCollectables: 10
+  numberCollected: 0
+  collectablesList:
+  - {fileID: 11409266, guid: a74ebd0944fba404cbfa8c21f54f0484, type: 2}
+  - {fileID: 11409266, guid: dda1b701a5a207642abc78d985eb8bf7, type: 2}
+  - {fileID: 11409266, guid: 8954cf0166b86e74abe9e68ab9228294, type: 2}
+  - {fileID: 11409266, guid: 8084fa5022d719f41b263adf9b118e77, type: 2}
+  - {fileID: 11409266, guid: 3d74759ee36026744a26f71c332144e7, type: 2}
+  - {fileID: 11409266, guid: 0e6247418c02f9c4dbb566207ef28002, type: 2}
+  - {fileID: 11409266, guid: 3c48c273dbe4b6548affbb1c803858ad, type: 2}
+  - {fileID: 11409266, guid: 595d292f3a8c6294f968c4d662af11bd, type: 2}
+  - {fileID: 11409266, guid: 24e40ee4a4d2e4745b88dd30252515e8, type: 2}
+  - {fileID: 11409266, guid: 86d93382af89ddc45abd8f65fff89abb, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

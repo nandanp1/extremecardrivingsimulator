@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc66de91336704fa59a08c230b6ee3f8, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier:
+  HostType: 4
+  Protocol: 0
+  ServerAddress:
+  ServerPort: 5055
+  PreferredRegion: 3
+  AppID: fe751311-3449-4b7c-a327-77e62302ffab
+  PingCloudServersOnAwake: 0
+  RpcList:
+  - Chat
+  - DestroyRpc
+  - InstantiateRpc
+  - OnAwakeRPC
+  - PickupItemInit
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupTimes
+  - RPCfunction
+  - RPCFunction
+  - RPC_SendMessageToChat
+  - InstantiateCarEveryWhere
+  - RPC_GoalReached
+  - RPC_OtherPlayerGoalReached
+  - RPC_StartFinalCountdown
+  - RPC_StartWaitingCountdown
+  - RPC_FinalCountdown
+  - RPC_StartCountdown
+  - RPC_WaitingCountdown
+  - RPC_SendFixedCountdownTimestamp
+  DisableAutoOpenWizard: 0

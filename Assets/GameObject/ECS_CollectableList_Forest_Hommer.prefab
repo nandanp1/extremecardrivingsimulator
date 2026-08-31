@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 479954}
+  - 114: {fileID: 11409266}
+  m_Layer: 0
+  m_Name: ECS_CollectableList_Forest_Hommer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 709.59436, y: -116.12555, z: -249.80249}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8f26ade4bb192b4864a10f985f83be, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  categoryName: collection_forest
+  categoryIconName: icon_forest
+  listKind: 2
+  zone: 2
+  collectableType: 2
+  collectionID: 1
+  rewardID: 6
+  totalCollectables: 10
+  numberCollected: 0
+  collectablesList:
+  - {fileID: 11409266, guid: e0597388f962be3488b2d37e486db949, type: 2}
+  - {fileID: 11409266, guid: 0d558a9264ac0b449acd6e5c979578b3, type: 2}
+  - {fileID: 11409266, guid: c7cdd7f5d9bce7e458b363207d398c28, type: 2}
+  - {fileID: 11409266, guid: 00a1625d969a8724dbb898a413f9dc3e, type: 2}
+  - {fileID: 11409266, guid: 89ce58b4f328a3843b6d876a8912e921, type: 2}
+  - {fileID: 11409266, guid: aeffbd15f237cc746bf94f972815e8df, type: 2}
+  - {fileID: 11409266, guid: 01bc7bfd484d3a84c8874f77a4f5cb17, type: 2}
+  - {fileID: 11409266, guid: 908d95f690cf8184eaa7df7099d15f5f, type: 2}
+  - {fileID: 11409266, guid: ccddc516273d8ae46a2842022222921d, type: 2}
+  - {fileID: 11409266, guid: 53f942b145f658845b87076106ff4913, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

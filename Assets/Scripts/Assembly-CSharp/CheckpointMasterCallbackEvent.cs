@@ -1,0 +1,1 @@
+public delegate void CheckpointMasterCallbackEvent(CheckpointScript checkpoint);

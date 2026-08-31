@@ -1,0 +1,140 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Crosstales.BadWord
+{
+	public class PunctuationManager : Manager
+	{
+		public int PunctuationCharsNumber = 4;
+
+		private static PunctuationFilter filter;
+
+		private static bool initalized;
+
+		private static readonly string clazz = "PunctuationManager";
+
+		private void Awake()
+		{
+			if (!initalized)
+			{
+				filter = new PunctuationFilter(PunctuationCharsNumber, MarkPrefix, MarkPostfix);
+				UnityEngine.Object.DontDestroyOnLoad(base.transform.gameObject);
+				initalized = true;
+			}
+			else if (Application.isPlaying)
+			{
+				Debug.LogWarning("Only one active instance of 'PunctuationManager' allowed in project!" + Environment.NewLine + "This object will now be destroyed.");
+				UnityEngine.Object.Destroy(base.gameObject, 1f);
+			}
+		}
+
+		public static PunctuationFilter Filter()
+		{
+			return filter;
+		}
+
+		public static bool Ready()
+		{
+			return filter.Ready();
+		}
+
+		public static List<Source> Sources()
+		{
+			List<Source> result = new List<Source>();
+			if (filter != null)
+			{
+				result = filter.Sources();
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+
+		public static bool Contains(string testString, params string[] sources)
+		{
+			bool result = false;
+			if (filter != null)
+			{
+				result = filter.Contains(testString, sources);
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+
+		public static List<string> GetAll(string testString, params string[] sources)
+		{
+			List<string> result = new List<string>();
+			if (filter != null)
+			{
+				result = filter.GetAll(testString, sources);
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+
+		public static string ReplaceAll(string testString, params string[] sources)
+		{
+			string result = testString;
+			if (filter != null)
+			{
+				result = filter.ReplaceAll(testString, sources);
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+
+		public static string Replace(string text, List<string> badWords)
+		{
+			string result = text;
+			if (filter != null)
+			{
+				result = filter.Replace(text, badWords);
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+
+		public static string Mark(string text, List<string> badWords, string prefix = "", string postfix = "")
+		{
+			string result = text;
+			if (filter != null)
+			{
+				result = filter.Mark(text, badWords, prefix, postfix);
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+
+		public static string Unmark(string text, string prefix = "", string postfix = "")
+		{
+			string result = text;
+			if (filter != null)
+			{
+				result = filter.Unmark(text, prefix, postfix);
+			}
+			else
+			{
+				Manager.logFilterIsNull(clazz);
+			}
+			return result;
+		}
+	}
+}

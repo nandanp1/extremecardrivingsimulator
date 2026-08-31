@@ -1,0 +1,952 @@
+{
+    "sceneKey": "Extreme_2Game_Airport_Zone2",
+    "scenePath": "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Airport_Zone2.unity",
+    "sceneGuid": "99b67c312edd419459572aaaa0215174",
+    "originalSourceSha256": "407d2eef05c256bf21889011c5c9bf0fe3f0b39ac8c5e6ad0b20dcc6837f6e9f",
+    "originalRawBackupPath": "/Users/nandu/Desktop/racingconversion/audit/reconstruction/asset_export/ExportedProject/MigrationBackups/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/2Game_Airport_Zone2.before-legacy-static-batch.407d2eef05c256bf.unity",
+    "expectedRendererCount": 20,
+    "expectedSelectedSubmeshCount": 20,
+    "expectedCombinedMeshCount": 1,
+    "renderers": [
+        {
+            "rendererFileId": 592,
+            "gameObjectFileId": 10,
+            "meshFilterFileId": 882,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "08000000",
+            "submeshes": [
+                8
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.16210785508155824
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/592_Rampa3.asset",
+            "generatedMeshGuid": "a336b805700c04586956412190c3e1f8",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 354.48272705078127,
+                "y": 10.910343170166016,
+                "z": -618.587158203125
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.56072998046875,
+                "y": 0.7359905242919922,
+                "z": 4.7828369140625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.003058195114135742,
+                "y": 0.06290817260742188,
+                "z": 0.6803457140922546
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.5607237815856935,
+                "y": 4.782775402069092,
+                "z": 0.7359907031059265
+            },
+            "maxPositionRoundTripError": 0.00003057712456211448
+        },
+        {
+            "rendererFileId": 608,
+            "gameObjectFileId": 26,
+            "meshFilterFileId": 898,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "07000000",
+            "submeshes": [
+                7
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.012695311568677426,
+                "y": 0.0126953125,
+                "z": -4.1812633216897768e-11,
+                "w": 0.0498046875
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/608_Rampa1.asset",
+            "generatedMeshGuid": "54099032f473042b0bbaca43539f66d6",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 424.0205078125,
+                "y": 19.581958770751954,
+                "z": -522.6438598632813
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.80438232421875,
+                "y": 1.4214630126953126,
+                "z": 2.34832763671875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.06395268440246582,
+                "y": 0.08951234817504883,
+                "z": 1.4119586944580079
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.3483164310455324,
+                "y": 4.804357051849365,
+                "z": 1.4214611053466797
+            },
+            "maxPositionRoundTripError": 0.000030517578125
+        },
+        {
+            "rendererFileId": 648,
+            "gameObjectFileId": 66,
+            "meshFilterFileId": 938,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "06000000",
+            "submeshes": [
+                6
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.14843598008155824
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/648_Rampa3.asset",
+            "generatedMeshGuid": "44e2deae5b5a14d658270b75e5f12503",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 354.5027160644531,
+                "y": 2.880344867706299,
+                "z": -618.6370849609375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.560760498046875,
+                "y": 0.735990047454834,
+                "z": 4.7828369140625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.003062725067138672,
+                "y": 0.06291007995605469,
+                "z": 0.6803449988365173
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.5607237815856935,
+                "y": 4.782774925231934,
+                "z": 0.7359901666641235
+            },
+            "maxPositionRoundTripError": 0.00003055108754779212
+        },
+        {
+            "rendererFileId": 655,
+            "gameObjectFileId": 73,
+            "meshFilterFileId": 945,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "0d000000",
+            "submeshes": [
+                13
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": -0.00006514526467071846,
+                "w": 0.24217914044857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/655_CurvaSignCurva.asset",
+            "generatedMeshGuid": "eb9e036c30d8a40aaa2eefdcccda61ca",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 419.7900085449219,
+                "y": -4.579959869384766,
+                "z": -575.6339721679688
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000006079673767089844,
+                "y": 0.009049429558217526,
+                "z": -0.33034682273864748
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925395965576172,
+                "y": 0.020006421953439714,
+                "z": 1.5274403095245362
+            },
+            "maxPositionRoundTripError": 7.152557373046875e-7
+        },
+        {
+            "rendererFileId": 665,
+            "gameObjectFileId": 83,
+            "meshFilterFileId": 955,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "0b000000",
+            "submeshes": [
+                11
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.13476410508155824
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/665_Rampa3.asset",
+            "generatedMeshGuid": "8d301c2fc48f24cf0886ff45b66fe4d1",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 420.31707763671877,
+                "y": 10.910343170166016,
+                "z": -554.4072875976563
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.78277587890625,
+                "y": 0.7359905242919922,
+                "z": 2.56072998046875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0030701160430908205,
+                "y": 0.06292343139648438,
+                "z": 0.6803441047668457
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.5607306957244875,
+                "y": 4.7827630043029789,
+                "z": 0.735990047454834
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 683,
+            "gameObjectFileId": 101,
+            "meshFilterFileId": 973,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "0f000000",
+            "submeshes": [
+                15
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": 0.005794229917228222,
+                "w": 0.23631976544857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/683_CurvaSignCurva.asset",
+            "generatedMeshGuid": "872f422f61999445aaa777af3a86de24",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 399.4700012207031,
+                "y": 19.89004135131836,
+                "z": -575.74609375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.031005859375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000003337860107421875,
+                "y": 0.009063673205673695,
+                "z": -0.3303471803665161
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925409078598023,
+                "y": 0.02002713829278946,
+                "z": 1.5274397134780884
+            },
+            "maxPositionRoundTripError": 0.00006106495129643008
+        },
+        {
+            "rendererFileId": 693,
+            "gameObjectFileId": 111,
+            "meshFilterFileId": 983,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "0e000000",
+            "submeshes": [
+                14
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": -0.00006514526467071846,
+                "w": 0.23631976544857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/693_CurvaSignCurva.asset",
+            "generatedMeshGuid": "8f722cffd4f5a418e9ecea0c927fa896",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 422.5400085449219,
+                "y": -4.589959144592285,
+                "z": -575.583984375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000014185905456542969,
+                "y": 0.009046940132975579,
+                "z": -0.3303467035293579
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925395965576172,
+                "y": 0.020006421953439714,
+                "z": 1.5274403095245362
+            },
+            "maxPositionRoundTripError": 0.00003053247564821504
+        },
+        {
+            "rendererFileId": 707,
+            "gameObjectFileId": 125,
+            "meshFilterFileId": 997,
+            "gameObjectName": "Workshop_Logo_Banner_Post",
+            "subsetHexLittleEndian": "13000000",
+            "submeshes": [
+                19
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 254,
+            "lightmapIndex": 254,
+            "lightmapScaleOffset": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/707_Workshop_Logo_Banner_Post.asset",
+            "generatedMeshGuid": "bd07fc329c31c4fd4a21cdf5591a38a9",
+            "generatedVertexCount": 78,
+            "generatedIndexCount": 204,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 311.36199951171877,
+                "y": 27.204687118530275,
+                "z": -522.7486572265625
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 0.38818359375,
+                "y": 9.03471565246582,
+                "z": 0.3880615234375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.000018477439880371094,
+                "y": -0.000023096799850463867,
+                "z": 6.453368186950684
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.2783104181289673,
+                "y": 0.2740788459777832,
+                "z": 6.453369140625
+            },
+            "maxPositionRoundTripError": 0.00003075507265748456
+        },
+        {
+            "rendererFileId": 721,
+            "gameObjectFileId": 139,
+            "meshFilterFileId": 1011,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "12000000",
+            "submeshes": [
+                18
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": 0.005794229917228222,
+                "w": 0.23046039044857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/721_CurvaSignCurva.asset",
+            "generatedMeshGuid": "bc1dfc85986474eefb259d66e94d31c7",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 428.6700134277344,
+                "y": -5.579959869384766,
+                "z": -566.1339721679688
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.0,
+                "y": 0.009057523682713509,
+                "z": -0.3303471803665161
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925395965576172,
+                "y": 0.020006421953439714,
+                "z": 1.5274403095245362
+            },
+            "maxPositionRoundTripError": 9.5367431640625e-7
+        },
+        {
+            "rendererFileId": 730,
+            "gameObjectFileId": 148,
+            "meshFilterFileId": 1020,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "00000000",
+            "submeshes": [
+                0
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.012695311568677426,
+                "y": 0.0126953125,
+                "z": -4.1812633216897768e-11,
+                "w": 0.033203125
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/730_Rampa1.asset",
+            "generatedMeshGuid": "7272e2281b3a1438db923aadfc5f65bc",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 424.0205078125,
+                "y": 19.581958770751954,
+                "z": -560.8339233398438
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.80438232421875,
+                "y": 1.4214630126953126,
+                "z": 2.34832763671875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.06395268440246582,
+                "y": 0.08951234817504883,
+                "z": 1.4119586944580079
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.3483164310455324,
+                "y": 4.804357051849365,
+                "z": 1.4214611053466797
+            },
+            "maxPositionRoundTripError": 0.000030517578125
+        },
+        {
+            "rendererFileId": 734,
+            "gameObjectFileId": 152,
+            "meshFilterFileId": 1024,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "11000000",
+            "submeshes": [
+                17
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": -0.00006514526467071846,
+                "w": 0.23046039044857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/734_CurvaSignCurva.asset",
+            "generatedMeshGuid": "3b8b5c384829249389e8d38caf90f205",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 396.55999755859377,
+                "y": 19.89004135131836,
+                "z": -576.090087890625
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.2152099609375,
+                "y": 2.3579225540161135,
+                "z": 0.1761474609375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000008046627044677734,
+                "y": 0.009005418978631497,
+                "z": -0.3303478956222534
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925482988357544,
+                "y": 0.020027274265885354,
+                "z": 1.527440071105957
+            },
+            "maxPositionRoundTripError": 0.00006106495129643008
+        },
+        {
+            "rendererFileId": 751,
+            "gameObjectFileId": 169,
+            "meshFilterFileId": 1041,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "10000000",
+            "submeshes": [
+                16
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": 0.005794229917228222,
+                "w": 0.22460101544857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/751_CurvaSignCurva.asset",
+            "generatedMeshGuid": "13fc750c1c8804b5495e322cf3ca3aab",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 402.54998779296877,
+                "y": 19.89004135131836,
+                "z": -575.8865966796875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22216796875,
+                "y": 2.3579225540161135,
+                "z": 0.095947265625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000027179718017578125,
+                "y": 0.009027451276779175,
+                "z": -0.33034682273864748
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925451993942261,
+                "y": 0.020025178790092469,
+                "z": 1.527440071105957
+            },
+            "maxPositionRoundTripError": 0.000030517578125
+        },
+        {
+            "rendererFileId": 779,
+            "gameObjectFileId": 197,
+            "meshFilterFileId": 1069,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "03000000",
+            "submeshes": [
+                3
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.12109223753213883
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/779_Rampa3.asset",
+            "generatedMeshGuid": "495f57c0771774bd684b79a34b232980",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 420.3370666503906,
+                "y": 2.8803441524505617,
+                "z": -509.19732666015627
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.782806396484375,
+                "y": 0.7359898090362549,
+                "z": 2.56072998046875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0030775070190429689,
+                "y": 0.06290340423583985,
+                "z": 0.6803439855575562
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.560725212097168,
+                "y": 4.7827630043029789,
+                "z": 0.7359899282455444
+            },
+            "maxPositionRoundTripError": 0.000030517578125
+        },
+        {
+            "rendererFileId": 800,
+            "gameObjectFileId": 220,
+            "meshFilterFileId": 1090,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "04000000",
+            "submeshes": [
+                4
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.10742036253213883
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/800_Rampa3.asset",
+            "generatedMeshGuid": "a430ae09858ad4be0b69918915fb8735",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 330.5627136230469,
+                "y": 10.910343170166016,
+                "z": -618.587158203125
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.560760498046875,
+                "y": 0.7359905242919922,
+                "z": 4.7828369140625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0030527114868164064,
+                "y": 0.06288528442382813,
+                "z": 0.6803457140922546
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.5607237815856935,
+                "y": 4.782774925231934,
+                "z": 0.7359907031059265
+            },
+            "maxPositionRoundTripError": 0.00003057712456211448
+        },
+        {
+            "rendererFileId": 803,
+            "gameObjectFileId": 223,
+            "meshFilterFileId": 1093,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "02000000",
+            "submeshes": [
+                2
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.09374848753213883
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/803_Rampa3.asset",
+            "generatedMeshGuid": "7a559eddeb06b4ee2a77650ec9a2e0c3",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 330.60272216796877,
+                "y": 2.880344867706299,
+                "z": -618.6370849609375
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.56072998046875,
+                "y": 0.735990047454834,
+                "z": 4.7828369140625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0030570030212402345,
+                "y": 0.06289052963256836,
+                "z": 0.6803449988365173
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.5607237815856935,
+                "y": 4.782775402069092,
+                "z": 0.7359901666641235
+            },
+            "maxPositionRoundTripError": 0.00003055108754779212
+        },
+        {
+            "rendererFileId": 805,
+            "gameObjectFileId": 225,
+            "meshFilterFileId": 1095,
+            "gameObjectName": "CurvaSignCurva",
+            "subsetHexLittleEndian": "0c000000",
+            "submeshes": [
+                12
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.001953125,
+                "y": 0.001953125,
+                "z": -0.00006514526467071846,
+                "w": 0.22460101544857026
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/805_CurvaSignCurva.asset",
+            "generatedMeshGuid": "1d926160c1d804bd2924cfe190f87f61",
+            "generatedVertexCount": 72,
+            "generatedIndexCount": 108,
+            "materialCount": 1,
+            "lodReferenceCount": 0,
+            "sourceWorldBoundsCenter": {
+                "x": 425.75,
+                "y": -5.579959869384766,
+                "z": -566.1339721679688
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 1.22344970703125,
+                "y": 2.357921600341797,
+                "z": 0.0308837890625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.000012874603271484375,
+                "y": 0.009057523682713509,
+                "z": -0.3303471803665161
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 0.7925395965576172,
+                "y": 0.020006421953439714,
+                "z": 1.5274403095245362
+            },
+            "maxPositionRoundTripError": 0.00003053247564821504
+        },
+        {
+            "rendererFileId": 838,
+            "gameObjectFileId": 258,
+            "meshFilterFileId": 1128,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "01000000",
+            "submeshes": [
+                1
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.012695311568677426,
+                "y": 0.0126953125,
+                "z": -4.1812633216897768e-11,
+                "w": 0.0166015625
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/838_Rampa1.asset",
+            "generatedMeshGuid": "d8aea5b5f03f24031a4075eb8566c908",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 363.2132568359375,
+                "y": 19.61195945739746,
+                "z": -619.494873046875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.90338134765625,
+                "y": 1.4214611053466797,
+                "z": 4.719146728515625
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.06395483016967774,
+                "y": 0.08949661254882813,
+                "z": 1.4119586944580079
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.348313331604004,
+                "y": 4.804364204406738,
+                "z": 1.4214611053466797
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 840,
+            "gameObjectFileId": 260,
+            "meshFilterFileId": 1130,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "05000000",
+            "submeshes": [
+                5
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.08007661253213883
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/840_Rampa3.asset",
+            "generatedMeshGuid": "bed38489474e64c629b24fa5586e5364",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 420.31707763671877,
+                "y": 10.910343170166016,
+                "z": -509.2073059082031
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.78277587890625,
+                "y": 0.7359905242919922,
+                "z": 2.560760498046875
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.0030755996704101564,
+                "y": 0.06290245056152344,
+                "z": 0.6803441047668457
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.560725212097168,
+                "y": 4.7827630043029789,
+                "z": 0.735990047454834
+            },
+            "maxPositionRoundTripError": 0.000030517578125
+        },
+        {
+            "rendererFileId": 856,
+            "gameObjectFileId": 276,
+            "meshFilterFileId": 1146,
+            "gameObjectName": "Rampa3",
+            "subsetHexLittleEndian": "0a000000",
+            "submeshes": [
+                10
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.009765625,
+                "y": 0.009765625931322575,
+                "z": -0.0011804306413978339,
+                "w": 0.06640473753213883
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/856_Rampa3.asset",
+            "generatedMeshGuid": "79a2f1d8979a749a3b5e1e0d32737f92",
+            "generatedVertexCount": 424,
+            "generatedIndexCount": 876,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 420.3370666503906,
+                "y": 2.8803441524505617,
+                "z": -554.3973388671875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 4.782806396484375,
+                "y": 0.7359898090362549,
+                "z": 2.5606689453125
+            },
+            "generatedLocalBoundsCenter": {
+                "x": -0.003072023391723633,
+                "y": 0.06292438507080078,
+                "z": 0.6803439855575562
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.5607306957244875,
+                "y": 4.7827630043029789,
+                "z": 0.7359899282455444
+            },
+            "maxPositionRoundTripError": 0.0
+        },
+        {
+            "rendererFileId": 861,
+            "gameObjectFileId": 281,
+            "meshFilterFileId": 1151,
+            "gameObjectName": "Rampa1",
+            "subsetHexLittleEndian": "09000000",
+            "submeshes": [
+                9
+            ],
+            "sourceMeshGuid": "d8c549932a5c1a34782bd479bcff25c4",
+            "sourceMeshFileId": 4300000,
+            "sourceLightmapIndex": 0,
+            "lightmapIndex": 0,
+            "lightmapScaleOffset": {
+                "x": 0.012695311568677426,
+                "y": 0.0126953125,
+                "z": -4.1812633216897768e-11,
+                "w": 0.0
+            },
+            "generatedMeshPath": "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/861_Rampa1.asset",
+            "generatedMeshGuid": "8474028f3791a4b56895839cbc681427",
+            "generatedVertexCount": 1048,
+            "generatedIndexCount": 2532,
+            "materialCount": 1,
+            "lodReferenceCount": 1,
+            "sourceWorldBoundsCenter": {
+                "x": 340.43603515625,
+                "y": 19.61195945739746,
+                "z": -620.010498046875
+            },
+            "sourceWorldBoundsExtents": {
+                "x": 2.3485870361328127,
+                "y": 1.4214611053466797,
+                "z": 4.804443359375
+            },
+            "generatedLocalBoundsCenter": {
+                "x": 0.06395292282104492,
+                "y": 0.08948087692260742,
+                "z": 1.4119588136672974
+            },
+            "generatedLocalBoundsExtents": {
+                "x": 2.3483057022094728,
+                "y": 4.804340362548828,
+                "z": 1.4214613437652588
+            },
+            "maxPositionRoundTripError": 0.0000019073486328125
+        }
+    ]
+}

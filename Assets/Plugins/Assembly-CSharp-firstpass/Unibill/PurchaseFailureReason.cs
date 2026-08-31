@@ -1,0 +1,14 @@
+namespace Unibill
+{
+	public enum PurchaseFailureReason
+	{
+		BILLER_NOT_READY = 0,
+		BILLING_UNAVAILABLE = 1,
+		CANNOT_REPURCHASE_NON_CONSUMABLE = 2,
+		ITEM_UNAVAILABLE = 3,
+		SIGNATURE_INVALID = 4,
+		USER_CANCELLED = 5,
+		PAYMENT_DECLINED = 6,
+		UNKNOWN = 7
+	}
+}

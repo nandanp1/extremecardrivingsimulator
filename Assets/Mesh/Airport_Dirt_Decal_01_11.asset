@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Airport_Dirt_Decal_01_11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 60
+    topology: 0
+    firstVertex: 0
+    vertexCount: 22
+    localAABB:
+      m_Center: {x: 1.9073486E-05, y: 1.9073486E-06, z: 0}
+      m_Extent: {x: 26.395058, y: 59.95829, z: 1.7607701E-07}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_StreamCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000001000200000003000100020001000400020004000500050004000600050006000700070006000800070008000900090008000a0009000a000b000b000a000c000b000c000d000d000c000e000d000e000f000f000e0010000f0010001100110010001200110012001300130012001400130014001500
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 9
+    m_VertexCount: 22
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_Streams:
+    - channelMask: 9
+      offset: 0
+      stride: 20
+      dividerOp: 0
+      frequency: 0
+    - channelMask: 0
+      offset: 0
+      stride: 0
+      dividerOp: 0
+      frequency: 0
+    - channelMask: 0
+      offset: 0
+      stride: 0
+      dividerOp: 0
+      frequency: 0
+    - channelMask: 0
+      offset: 0
+      stride: 0
+      dividerOp: 0
+      frequency: 0
+    m_DataSize: 440
+    _typelessdata: 1e29d3418d4342c2cd4e3c34c7376b4279ea9f3eb8063241470657c2ae0f3db492496b42a33bcd3e8f1e9a41700d30c2ae0f3d3492496b4279ea9f3e29b8a6414ad56fc2cd4e3cb4c7376b42a33bcd3e8f526d4014f436c2b27731b4e05a6b42a33bcd3e8fbe5741610f17c2b2773134e05a6b4279ea9f3e33b366c061390ec2bba422b4f96f6b42a33bcd3e0a37df40c2a1e5c1bba42234f96f6b4279ea9f3ec20935c133aeb2c11c150fb40a8a6b42a33bcd3ed7a37cbd851985c11c150f340a8a6b4279ea9f3e85e78ec133f9e6c0ca50f1b333a66b42a33bcd3e99a9c2c0c2f92ec0ca50f13333a66b4279ea9f3ea49cb6c1e1fbfd403d7ec2b383c16b42a33bcd3e70ad2ac1a93d34413d7ec23383c16b4279ea9f3e47c9cec19ed2ac4122446cb3f0d86b42a33bcd3e3d3a55c11e4bba4122446c33f0d86b4279ea9f3e0a29d3c1f8760042c0bd7c318be96b42a33bcd3e1e015cc10028fb41c0bd7cb18be96b4279ea9f3eebb7c3c15ee52e42db7f863390fc6b42a33bcd3e47d542c140702342db7f86b390fc6b4279ea9f3e29769cc14bd56f429cc30634d9186c42a33bcd3e7b8cfcc0cb1f5c429cc306b4d9186c4279ea9f3e
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Colors:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center: {x: 1.9073486E-05, y: 1.9073486E-06, z: 0}
+    m_Extent: {x: 26.395058, y: 59.95829, z: 1.7607701E-07}
+  m_MeshUsageFlags: 0
+  m_MeshOptimized: 1
