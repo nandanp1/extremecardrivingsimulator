@@ -183,10 +183,23 @@ public class GameLogic : MonoBehaviour
 
 	private void Update()
 	{
+		UpdateDirectionalInput(Time.deltaTime);
+	}
+
+	private void UpdateDirectionalInput(float deltaTime)
+	{
 		float target = ((m_dirLeftPressed == m_dirRightPressed) ? 0f : (m_dirLeftPressed ? (-1f) : 1f));
 		bool reversing = !Mathf.Approximately(target, 0f) && !Mathf.Approximately(m_directionalInput, 0f) && Mathf.Sign(target) != Mathf.Sign(m_directionalInput);
 		float rate = ((Mathf.Approximately(target, 0f) || reversing) ? STEER_RETURN_RATE : STEER_ENGAGE_RATE);
-		m_directionalInput = Mathf.MoveTowards(m_directionalInput, target, rate * Time.deltaTime);
+		if (carControl != null)
+		{
+			// Keep the recovered low-speed wheel sweep, with a short, progressive
+			// response to highway corrections and no stored full-lock input.
+			float angleRatio = carControl.steerMax / Mathf.Max(1f, carControl.GetSteeringLimit());
+			float maximumRate = Mathf.Approximately(target, 0f) || reversing ? 5f : 3f;
+			rate = Mathf.Min(rate * angleRatio, maximumRate);
+		}
+		m_directionalInput = Mathf.MoveTowards(m_directionalInput, target, rate * deltaTime);
 		dirLeft = Mathf.Min(0f, m_directionalInput);
 		dirRight = Mathf.Max(0f, m_directionalInput);
 	}
@@ -414,11 +427,20 @@ public class GameLogic : MonoBehaviour
 	{
 		gas = 0f;
 		brakes = 0f;
+		handbreak = 0f;
 		m_dirLeftPressed = false;
 		m_dirRightPressed = false;
 		m_directionalInput = 0f;
 		dirRight = 0f;
 		dirLeft = 0f;
+		if (carControl != null)
+		{
+			carControl.motorInput = 0f;
+			carControl.brakeInput = 0f;
+			carControl.handbrakeInput = 0f;
+			carControl.steerInput = 0f;
+			carControl.ResetSteerAngles();
+		}
 		CancelInvoke();
 	}
 

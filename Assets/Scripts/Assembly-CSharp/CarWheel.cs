@@ -2,6 +2,16 @@ using UnityEngine;
 
 public class CarWheel : MonoBehaviour
 {
+	private const float MODERN_FORWARD_PEAK_SLIP_RATIO = 0.4f;
+
+	private const float MODERN_FORWARD_TAIL_SLIP_RATIO = 0.8f;
+
+	private const float TRACTION_CONTROL_CUTOFF_SLIP_RATIO = 0.65f;
+
+	private const float TRACTION_CONTROL_RECOVERY_RATE = 6f;
+
+	private const float LOW_SPEED_SLIP_REFERENCE = 5f;
+
 	public float motorInput;
 
 	public float brakeInput;
@@ -25,6 +35,9 @@ public class CarWheel : MonoBehaviour
 	public bool optimized;
 
 	public bool serviceMode;
+
+	// Supplied by CarControl every physics step; no serialized prefab setting.
+	public bool tractionControlEnabled { get; set; }
 
 	private WheelCollider m_wheel;
 
@@ -50,17 +63,27 @@ public class CarWheel : MonoBehaviour
 
 	private float m_averageNormalLoad;
 
+	private float m_tractionTorqueScale = 1f;
+
 	public float getForwardPeakSlip()
 	{
-		// EVP4's PhysX 2 WheelCollider reported a curve extremum that was not the
-		// measured tire-force peak.  The Unity 6 migration stores the measured
-		// peak explicitly, so no additional legacy multiplier belongs here.
-		return m_wheel.forwardFriction.extremumSlip;
+		// CarControl's traction and motor/brake demands retain EVP4's slip-speed
+		// units (metres per second). They must not use the modern tire curve's
+		// dimensionless slip-ratio axis. Coche1's recovered demand peak is 1.778.
+		return Mathf.Max(0.001f, m_forwardFrictionPeak.x * GetLegacyForwardSlipFactor());
 	}
 
 	public float getForwardMaxSlip()
 	{
-		return m_wheel.forwardFriction.asymptoteSlip;
+		// Handbrake demand also remains in legacy slip-speed units (2.704 for
+		// Coche1), independent of the modern curve's 0.8 slip-ratio tail.
+		return Mathf.Max(getForwardPeakSlip() + 0.001f,
+			(1f + ForwardWheelFriction.gripRange) * GetLegacyForwardSlipFactor());
+	}
+
+	private float GetLegacyForwardSlipFactor()
+	{
+		return serviceMode ? 1f : performancePeak / Mathf.Max(0.001f, m_forwardFrictionPeak.y);
 	}
 
 	public float getSidewaysPeakSlip()
@@ -140,13 +163,17 @@ public class CarWheel : MonoBehaviour
 			RecalculateStuff();
 		}
 		float num = Mathf.Abs(motorInput) - brakeInput;
-		float slipFactor = ((!serviceMode) ? (performancePeak / m_forwardFrictionPeak.y) : 1f);
+		float slipFactor = GetLegacyForwardSlipFactor();
 		float stiffness = ((!(num >= 0f)) ? brakeForceFactor : motorForceFactor);
 		WheelFrictionCurve modernForwardFriction = GetModernForwardFrictionCurve(ForwardWheelFriction, stiffness, slipFactor);
 		m_wheel.forwardFriction = modernForwardFriction;
-		m_wheel.motorTorque = SlipToModernTorque(motorInput, modernForwardFriction);
+		m_wheel.motorTorque = ApplyModernTractionControl(SlipToModernTorque(motorInput, modernForwardFriction));
 		m_wheel.brakeTorque = Mathf.Abs(SlipToModernTorque(brakeInput, modernForwardFriction));
-		m_driftFactor = Mathf.Lerp(1f, sidewaysDriftFriction, Mathf.InverseLerp(m_wheel.forwardFriction.extremumSlip, m_wheel.forwardFriction.asymptoteSlip, Mathf.Abs((!m_grounded) ? num : m_wheelHit.forwardSlip)));
+		// Only measured ground slip is dimensionless. An airborne motor/brake
+		// demand is still a legacy slip speed and cannot be compared with it.
+		float measuredForwardSlipRatio = m_grounded ? Mathf.Abs(m_wheelHit.forwardSlip) : 0f;
+		m_driftFactor = Mathf.Lerp(1f, sidewaysDriftFriction, Mathf.InverseLerp(
+			MODERN_FORWARD_PEAK_SLIP_RATIO, MODERN_FORWARD_TAIL_SLIP_RATIO, measuredForwardSlipRatio));
 		stiffness = ((!serviceMode) ? (m_driftFactor * sidewaysForceFactor) : 1f);
 		m_wheel.sidewaysFriction = GetModernSidewaysFrictionCurve(stiffness);
 		if (m_grounded)
@@ -201,16 +228,17 @@ public class CarWheel : MonoBehaviour
 		// Reconstruct that measured curve as explicit Unity 6 acceleration/load
 		// coefficients.  At the normal fixed timestep the peak acceleration is
 		// exactly CarControl.motorPerformancePeak (8 m/s^2 for Coche1).
+		// The horizontal axis is now normalized longitudinal slip, not EVP4's
+		// metres-per-second slip speed. Keeping the old 1.778/2.704 axis required
+		// near-total wheelspin before the migrated tire could develop its force.
 		float gravity = Mathf.Max(0.001f, Physics.gravity.magnitude);
-		float peakSlip = Mathf.Max(0.001f, m_forwardFrictionPeak.x * SlipFactor);
 		float peakAcceleration = Mathf.Max(0f, m_forwardFrictionPeak.y * SlipFactor);
-		float asymptoteSlip = Mathf.Max(peakSlip + 0.001f, (1f + Friction.gripRange) * SlipFactor);
 		float asymptoteAcceleration = Mathf.Max(0f, CarWheelFriction.GetValue(CarWheelFriction.MCforward, Friction.drift, 1f + Friction.gripRange) * SlipFactor);
 		return new WheelFrictionCurve
 		{
-			extremumSlip = peakSlip,
+			extremumSlip = MODERN_FORWARD_PEAK_SLIP_RATIO,
 			extremumValue = peakAcceleration * m_DeltaTimeFactor / gravity,
-			asymptoteSlip = asymptoteSlip,
+			asymptoteSlip = MODERN_FORWARD_TAIL_SLIP_RATIO,
 			asymptoteValue = asymptoteAcceleration * m_DeltaTimeFactor / gravity,
 			stiffness = Stiffness
 		};
@@ -238,11 +266,73 @@ public class CarWheel : MonoBehaviour
 		// Equal left/right drive torque avoids a yaw moment from the asymmetric
 		// recovered sprung-mass values.  Axle balance is already encoded in Slip.
 		float peakForce = m_averageNormalLoad * ForwardFriction.extremumValue * ForwardFriction.stiffness;
-		float demand = Mathf.Abs(Slip) / Mathf.Max(0.001f, ForwardFriction.extremumSlip);
+		// Divide like units: legacy requested slip speed / legacy peak slip speed.
+		// Using the modern 0.4 friction ratio here would multiply drive/brake torque.
+		float demand = Mathf.Abs(Slip) / getForwardPeakSlip();
 		// Limit tiny recovered wheel inertias from producing numerical spikes.
 		// A grounded 2x peak still allows visible wheelspin with TC disabled.
 		demand = Mathf.Min(demand, m_grounded ? 2f : 1f);
 		return Mathf.Sign(Slip) * peakForce * radius * demand;
+	}
+
+	private float ApplyModernTractionControl(float requestedMotorTorque)
+	{
+		if (!tractionControlEnabled || serviceMode || Mathf.Abs(requestedMotorTorque) < 0.001f)
+		{
+			m_tractionTorqueScale = 1f;
+			return requestedMotorTorque;
+		}
+
+		float driveDirection = Mathf.Sign(requestedMotorTorque);
+		float radius = Mathf.Max(0.01f, m_wheel.radius * Mathf.Abs(m_wheel.transform.lossyScale.y));
+		Vector3 wheelForward = Quaternion.AngleAxis(m_wheel.steerAngle, transform.up) * transform.forward;
+		Vector3 samplePoint = m_grounded ? m_wheelHit.point : transform.position;
+		Vector3 roadVelocity = m_rigidbody.GetPointVelocity(samplePoint);
+		if (m_grounded && m_wheelHit.collider != null && m_wheelHit.collider.attachedRigidbody != null)
+		{
+			roadVelocity -= m_wheelHit.collider.attachedRigidbody.GetPointVelocity(samplePoint);
+		}
+		float roadSpeed = Vector3.Dot(roadVelocity, wheelForward) * driveDirection;
+		float rimSpeed = m_wheel.rpm * (2f * Mathf.PI / 60f) * radius * driveDirection;
+		if (m_grounded && roadSpeed < -0.5f)
+		{
+			// Torque opposing the car's travel is braking, not driven wheelspin.
+			// This lets the accelerator catch a backwards roll before driving on.
+			m_tractionTorqueScale = 1f;
+			return requestedMotorTorque;
+		}
+		float targetTorqueScale;
+		if (m_grounded)
+		{
+			// Signed rim-speed excess distinguishes driven wheelspin from braking
+			// slip. This dimensionless ratio matches the measured rolling-slip
+			// range; both numerator and denominator are speeds in metres/second.
+			// Regularize near zero speed so numerical RPM chatter does not make
+			// TC pulse the throttle and delay every standing start.
+			float driveSlipRatio = Mathf.Max(0f, rimSpeed - roadSpeed) /
+				Mathf.Max(LOW_SPEED_SLIP_REFERENCE, Mathf.Max(Mathf.Abs(rimSpeed), Mathf.Abs(roadSpeed)));
+			float excessSlip = Mathf.InverseLerp(MODERN_FORWARD_PEAK_SLIP_RATIO,
+				TRACTION_CONTROL_CUTOFF_SLIP_RATIO, driveSlipRatio);
+			targetTorqueScale = 1f - Mathf.SmoothStep(0f, 1f, excessSlip);
+		}
+		else
+		{
+			// An unloaded wheel cannot report tire slip. Limit additional motor
+			// drive once its rim outruns the car, so a short jump or suspension
+			// gap cannot leave it spinning at tens of thousands of RPM on landing.
+			// This applies no chassis force and never adds wheel brake torque.
+			float allowedRimSpeed = Mathf.Max(0f, roadSpeed) * 1.5f + 2f;
+			float excessSpeed = Mathf.InverseLerp(allowedRimSpeed, allowedRimSpeed + 2f, rimSpeed);
+			targetTorqueScale = 1f - Mathf.SmoothStep(0f, 1f, excessSpeed);
+		}
+
+		// Cut promptly to stop overspin growing; reapply torque progressively
+		// instead of alternating between full drive and zero at the grip limit.
+		m_tractionTorqueScale = targetTorqueScale < m_tractionTorqueScale
+			? targetTorqueScale
+			: Mathf.MoveTowards(m_tractionTorqueScale, targetTorqueScale,
+				TRACTION_CONTROL_RECOVERY_RATE * Time.fixedDeltaTime);
+		return requestedMotorTorque * m_tractionTorqueScale;
 	}
 
 	private float GetWheelSlipRatio(float Slip, float PeakSlip, float MaxSlip)

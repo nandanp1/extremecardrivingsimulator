@@ -2,6 +2,12 @@
 
 Status date: **2026-08-25** (America/Los_Angeles).
 
+This is the historical migration report. For the September 8 release-mode APK
+(`20071`), current native payload and emulator measurements, see
+[HUD_REFRESH_STATUS.md](HUD_REFRESH_STATUS.md). For the later driving pass,
+see [DRIVING_PARITY.md](DRIVING_PARITY.md). Hashes and phone results below refer
+to the August artifact, not the newest build.
+
 This directory is a reconstruction of the Unity player contained in
 `com.aim.racing_4.17.6-20070_minAPI16(armeabi-v7a)(nodpi)_apkmirror.com.apk`.
 It is not the developer's original Unity project.

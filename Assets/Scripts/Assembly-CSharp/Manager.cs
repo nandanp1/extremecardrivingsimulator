@@ -319,7 +319,7 @@ public class Manager : MySingleton<Manager>
 
 	private void Awake()
 	{
-		Application.targetFrameRate = 60;
+		DisplayFrameRateController.EnsureOn(gameObject);
 		AndroidNative.enableImmersiveMode();
 		generalShowedAchievements = true;
 		multiplayerShowedAchievements = true;

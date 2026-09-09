@@ -27,3 +27,8 @@ MigrationTools/verify_arm64_apk.sh path/to/application.apk
 See [MIGRATION_STATUS.md](MIGRATION_STATUS.md) for reconstruction details and
 known limitations. The newest packaged APK is available from GitHub Releases.
 
+See [DRIVING_PARITY.md](DRIVING_PARITY.md) for the September 2026 reference-video
+driving changes, measured comparisons, and repeatable physics diagnostics.
+
+See [HUD_REFRESH_STATUS.md](HUD_REFRESH_STATUS.md) for the stable handbrake
+layout, supported-display-aware 120/60 FPS policy, and emulator verification.

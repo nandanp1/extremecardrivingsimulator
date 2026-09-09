@@ -62,7 +62,8 @@ namespace RacingConversion.Editor
             PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
             PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel25;
             PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel36;
-            PlayerSettings.Android.bundleVersionCode = 20070;
+            PlayerSettings.Android.bundleVersionCode = 20071;
+            PlayerSettings.Android.optimizedFramePacing = true;
             PlayerSettings.Android.buildApkPerCpuArchitecture = false;
             PlayerSettings.Android.splitApplicationBinary = false;
             PlayerSettings.Android.minifyDebug = false;
@@ -72,7 +73,7 @@ namespace RacingConversion.Editor
             PlayerSettings.SetApplicationIdentifier(
                 NamedBuildTarget.Android,
                 TestApplicationIdentifier);
-            PlayerSettings.bundleVersion = "4.17.6-reconstructed";
+            PlayerSettings.bundleVersion = "4.17.6-reconstructed.2";
 
             PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.Android, false);
             PlayerSettings.SetGraphicsAPIs(
@@ -266,6 +267,11 @@ namespace RacingConversion.Editor
             if (!PlayerSettings.GetStaticBatchingForPlatform(BuildTarget.Android))
             {
                 errors.Add("Android static batching is disabled.");
+            }
+
+            if (!PlayerSettings.Android.optimizedFramePacing)
+            {
+                errors.Add("Android optimized frame pacing is disabled.");
             }
 
             if (PlayerSettings.GetManagedStrippingLevel(NamedBuildTarget.Android) !=

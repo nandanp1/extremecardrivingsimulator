@@ -6,6 +6,9 @@
 /[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
+/.utmp/
+__pycache__/
+*.pyc
 
 # Build outputs are published through GitHub Releases
 /[Bb]uild/
@@ -35,4 +38,3 @@
 .DS_Store
 sysinfo.txt
 crashlytics-build.properties
-

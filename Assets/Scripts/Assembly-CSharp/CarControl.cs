@@ -5,11 +5,13 @@ public class CarControl : MonoBehaviour
 {
 	private const string GAME_OBJECT_NAME = "GameLogic";
 
-	private const float COAST_DRAG_SCALE = 0.35f;
-
 	private const float ROLLING_HOLD_SPEED = 0.5f;
 
 	private const float MAX_STEERING_LATERAL_ACCELERATION = 14.5f;
+
+	private const float MINIMUM_SUSPENSION_DAMPING_RATIO = 0.30f;
+
+	private const float MODERN_BRAKE_FORCE_SCALE = 1.15f;
 
 	private const float AIRPORT_LOOP_SURFACE_PRELOAD = 12f;
 
@@ -208,6 +210,14 @@ public class CarControl : MonoBehaviour
 			m_rigidbody.centerOfMass = new Vector3(CenterOfMass.localPosition.x * base.transform.localScale.x, CenterOfMass.localPosition.y * base.transform.localScale.y, CenterOfMass.localPosition.z * base.transform.localScale.z);
 		}
 		WheelCollider component = WheelFL.GetComponent<WheelCollider>();
+		// Subdivide tire/suspension integration without changing the game's
+		// 50 Hz timestep. This prevents the small wheel inertias overshooting
+		// their traction peak between steps during launch and fast cornering.
+		component.ConfigureVehicleSubsteps(5f, 8, 4);
+		StabilizeModernSuspension(WheelFL);
+		StabilizeModernSuspension(WheelFR);
+		StabilizeModernSuspension(WheelRL);
+		StabilizeModernSuspension(WheelRR);
 		Vector3 vector = m_rigidbody.centerOfMass - base.transform.InverseTransformPoint(component.transform.position);
 		float x = Mathf.Abs((vector.y + component.radius + component.suspensionDistance / 2f) * base.transform.localScale.y);
 		float y = Mathf.Abs(vector.x * base.transform.localScale.x);
@@ -292,23 +302,8 @@ public class CarControl : MonoBehaviour
 		ApplyTraction(WheelRL, m_rearMotorSlip, m_rearBrakeSlip, handbrakeInput);
 		ApplyTraction(WheelRR, m_rearMotorSlip, m_rearBrakeSlip, handbrakeInput);
 		ApplyAirportLoopSurfacePreload();
-		if (autoSteerLevel > 0f)
-		{
-			// The recovered source-era slip-angle formula becomes unstable with
-			// Unity 6 WheelCollider physics and can spin the car through 140 degrees
-			// during one ordinary high-speed turn. Limit commanded steering by a
-			// bicycle-model lateral-acceleration envelope so it remains responsive
-			// without asking the migrated tires for an impossible direction change.
-			Vector3 localVelocity = base.transform.InverseTransformDirection(m_rigidbody.linearVelocity);
-			float planarSpeedSqr = localVelocity.x * localVelocity.x + localVelocity.z * localVelocity.z;
-			float safeSteerAngle = Mathf.Atan2(m_wheelbase * MAX_STEERING_LATERAL_ACCELERATION,
-				Mathf.Max(0.01f, planarSpeedSqr)) * Mathf.Rad2Deg;
-			m_steerAngleMax = Mathf.Min(steerMax, safeSteerAngle);
-		}
-		else
-		{
-			m_steerAngleMax = steerMax;
-		}
+		m_steerAngleMax = GetSteeringLimit();
+		CalculateSteerAngles();
 		WheelFL.getWheelCollider().steerAngle = m_steerL;
 		WheelFR.getWheelCollider().steerAngle = m_steerR;
 		if (!serviceMode)
@@ -318,9 +313,10 @@ public class CarControl : MonoBehaviour
 			Vector3 linearVelocity = m_rigidbody.linearVelocity;
 			Vector3 vector = (0f - num2) * linearVelocity * linearVelocity.magnitude;
 			Vector3 vector2 = (0f - num3) * linearVelocity;
-			bool coasting = Mathf.Abs(motorInput) < 0.001f && brakeInput < 0.001f && handbrakeInput < 0.001f;
-			float dragScale = coasting ? COAST_DRAG_SCALE : 1f;
-			m_rigidbody.AddForce((vector + vector2) * dragScale);
+			// The reference loses about 33 HUD km/h per second while coasting
+			// around 220. Keep the recovered continuous aerodynamic/rolling drag;
+			// lift-off never applies the old full-speed wheel brake below.
+			m_rigidbody.AddForce(vector + vector2);
 		}
 		if ((bool)AntiRollFront)
 		{
@@ -334,9 +330,9 @@ public class CarControl : MonoBehaviour
 
 	private void ApplyAirportLoopSurfacePreload()
 	{
-		// Restore the legacy arcade adhesion needed by Airport_Ramp_05's broad
-		// inverted ceiling, retaining the last surface normal across short mesh
-		// seams. Road handling and every other ramp remain untouched.
+		// Reconstruction assist for Airport_Ramp_05's broad inverted ceiling,
+		// retaining the last surface normal across short mesh seams. Road
+		// handling and every other ramp remain untouched.
 		Vector3 position = m_rigidbody.worldCenterOfMass;
 		bool insideLoop = position.x > 657f && position.x < 752f &&
 			position.y > -8f && position.y < 31f &&
@@ -377,9 +373,13 @@ public class CarControl : MonoBehaviour
 		if (surfaceContacts > 0 || m_airportLoopContactGrace > 0f)
 		{
 			m_rigidbody.AddForce(-m_airportLoopSurfaceNormal * AIRPORT_LOOP_SURFACE_PRELOAD, ForceMode.Acceleration);
+			if (surfaceContacts > 0)
+			{
+				ApplyAirportLoopDriveAssist();
+			}
 			if (Mathf.Abs(steerInput) < 0.05f)
 			{
-				// The source-era loop guided neutral cars through its narrow lane.
+				// Keep neutral cars aligned with this narrow reconstructed lane.
 				// Counter the migrated mesh's asymmetric contact drift, but give the
 				// player full authority as soon as steering input is present.
 				float centerError = position.z - AIRPORT_LOOP_CENTER_Z;
@@ -390,6 +390,31 @@ public class CarControl : MonoBehaviour
 				m_rigidbody.AddForce(Vector3.forward * centeringAcceleration, ForceMode.Acceleration);
 			}
 		}
+	}
+
+	private void ApplyAirportLoopDriveAssist()
+	{
+		if (serviceMode || motorInput <= 0f || gearInput <= 0 || brakeInput > 0.01f ||
+			handbrakeInput > 0.01f || m_airportLoopSurfaceNormal.y > 0.95f ||
+			m_rigidbody.linearVelocity.sqrMagnitude >= sqrMaxSpeed) return;
+		Vector3 tangent = Vector3.ProjectOnPlane(transform.forward, m_airportLoopSurfaceNormal);
+		if (tangent.sqrMagnitude < 0.001f) return;
+		tangent.Normalize();
+		float forwardSpeed = Vector3.Dot(m_rigidbody.linearVelocity, tangent);
+		if (forwardSpeed < AIRPORT_LOOP_MINIMUM_SPEED) return;
+		// Video-calibrated arcade assistance on this exact loop's curved surface:
+		// the legacy car accelerates up the wall instead of losing most of its
+		// speed. Offset uphill gravity and drag only while throttle is held and
+		// real tires touch the uphill section. Do not set velocity, boost in air,
+		// or affect the dish/other ramps. Fade before the ceiling and maximum
+		// road speed; the reference still slows across the inverted ceiling.
+		float dragAcceleration = 0.5f * airDrag * 1.29f * forwardSpeed *
+			(m_rigidbody.linearVelocity.magnitude + frictionDrag) / m_rigidbody.mass;
+		float uphillGravity = Mathf.Max(0f, -Vector3.Dot(Physics.gravity, tangent));
+		float headroom = Mathf.Clamp01(maxSpeed - forwardSpeed);
+		float uphillWeight = Mathf.InverseLerp(0.05f, 0.30f, tangent.y);
+		float assistance = (dragAcceleration + uphillGravity) * Mathf.Clamp01(motorInput) * headroom * uphillWeight;
+		m_rigidbody.AddForce(tangent * assistance, ForceMode.Acceleration);
 	}
 
 	private static void AccumulateAirportLoopSurfaceNormal(CarWheel wheel, ref Vector3 normalSum, ref int surfaceContacts)
@@ -415,7 +440,20 @@ public class CarControl : MonoBehaviour
 			}
 			m_brakeRelease = CarMain.SendInput(this, reverseRequiresStop, m_brakeRelease, logic);
 		}
-		CalculateSteerAngles();
+	}
+
+	public float GetSteeringLimit()
+	{
+		if (autoSteerLevel <= 0f || m_rigidbody == null || m_wheelbase <= 0f)
+		{
+			return steerMax;
+		}
+		Vector3 localVelocity = transform.InverseTransformDirection(m_rigidbody.linearVelocity);
+		// The old espLevel (0.5 on Coche1) scales a legacy slip-speed rule.
+		// Applying it to this acceleration bound would quadruple cornering demand.
+		float planarSpeedSqr = localVelocity.x * localVelocity.x + localVelocity.z * localVelocity.z;
+		return Mathf.Min(steerMax, Mathf.Atan2(m_wheelbase * MAX_STEERING_LATERAL_ACCELERATION,
+			Mathf.Max(0.01f, planarSpeedSqr)) * Mathf.Rad2Deg);
 	}
 
 	public void FindGameLogic()
@@ -432,17 +470,32 @@ public class CarControl : MonoBehaviour
 		}
 	}
 
+	private void StabilizeModernSuspension(CarWheel wheel)
+	{
+		if (serviceMode) return;
+		WheelCollider collider = wheel.GetComponent<WheelCollider>();
+		JointSpring spring = collider.suspensionSpring;
+		// The recovered damping ratio was only about 0.14-0.17. Modern tire
+		// contact could sustain a rear-axle hop after a disturbed landing.
+		// Keep spring rate and travel, with a still-underdamped 0.30 floor.
+		float criticalDamping = 2f * Mathf.Sqrt(Mathf.Max(0f, spring.spring * collider.sprungMass));
+		spring.damper = Mathf.Max(spring.damper, MINIMUM_SUSPENSION_DAMPING_RATIO * criticalDamping);
+		collider.suspensionSpring = spring;
+	}
+
 	private void ApplyCommonParameters(CarWheel Wheel)
 	{
 		Wheel.ForwardWheelFriction = ForwardWheelFriction;
 		Wheel.SidewaysWheelFriction = SidewaysWheelFriction;
-		Wheel.brakeForceFactor = brakeForceFactor;
+		// Reference service-brake interval: HUD 233 -> 126 in about 1.42 s.
+		Wheel.brakeForceFactor = brakeForceFactor * (serviceMode ? 1f : MODERN_BRAKE_FORCE_SCALE);
 		Wheel.motorForceFactor = motorForceFactor;
 		Wheel.performancePeak = motorPerformancePeak;
 		Wheel.sidewaysDriftFriction = sidewaysDriftFriction;
 		Wheel.staticFrictionMax = staticFrictionMax;
 		Wheel.serviceMode = serviceMode;
 		Wheel.optimized = optimized;
+		Wheel.tractionControlEnabled = autoMotorMax;
 	}
 
 	private void ApplyFrontParameters(CarWheel Wheel)
@@ -525,20 +578,14 @@ public class CarControl : MonoBehaviour
 	{
 		if (steerInput > 0f)
 		{
-			m_steerR = steerMax * steerInput;
-			if (m_steerR > m_steerAngleMax)
-			{
-				m_steerR = m_steerAngleMax;
-			}
+			// Normalize against the available angle: clipping 45 * input caused
+			// hidden input accumulation and a long full-lock delay after release.
+			m_steerR = m_steerAngleMax * Mathf.Clamp01(steerInput);
 			m_steerL = 57.29578f * Mathf.Atan(1f / (Mathf.Tan((90f - m_steerR) * ((float)Math.PI / 180f)) + m_trackWidth / m_wheelbase));
 		}
 		else if (steerInput < 0f)
 		{
-			m_steerL = steerMax * steerInput;
-			if (m_steerL < 0f - m_steerAngleMax)
-			{
-				m_steerL = 0f - m_steerAngleMax;
-			}
+			m_steerL = m_steerAngleMax * Mathf.Clamp(steerInput, -1f, 0f);
 			m_steerR = -57.29578f * Mathf.Atan(1f / (Mathf.Tan((90f + m_steerL) * ((float)Math.PI / 180f)) + m_trackWidth / m_wheelbase));
 		}
 		else
