@@ -62,7 +62,7 @@ namespace RacingConversion.Editor
             PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
             PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel25;
             PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel36;
-            PlayerSettings.Android.bundleVersionCode = 20071;
+            PlayerSettings.Android.bundleVersionCode = 20072;
             PlayerSettings.Android.optimizedFramePacing = true;
             PlayerSettings.Android.buildApkPerCpuArchitecture = false;
             PlayerSettings.Android.splitApplicationBinary = false;
@@ -73,7 +73,7 @@ namespace RacingConversion.Editor
             PlayerSettings.SetApplicationIdentifier(
                 NamedBuildTarget.Android,
                 TestApplicationIdentifier);
-            PlayerSettings.bundleVersion = "4.17.6-reconstructed.2";
+            PlayerSettings.bundleVersion = "4.17.6-reconstructed.3";
 
             PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.Android, false);
             PlayerSettings.SetGraphicsAPIs(

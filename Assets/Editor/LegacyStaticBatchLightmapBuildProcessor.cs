@@ -51,6 +51,10 @@ namespace RacingConversion.Editor
                 "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/LegacySubsetManifest.json",
                 "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Airport_Zone2/Meshes/"),
             new BuildSceneSpec(
+                "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Forest.unity",
+                "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Forest/LegacySubsetManifest.json",
+                "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Forest/Meshes/"),
+            new BuildSceneSpec(
                 "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Zone0.unity",
                 "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone0/LegacySubsetManifest.json",
                 "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches/Extreme_2Game_Zone0/Meshes/"),

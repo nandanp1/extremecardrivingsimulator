@@ -32,3 +32,6 @@ driving changes, measured comparisons, and repeatable physics diagnostics.
 
 See [HUD_REFRESH_STATUS.md](HUD_REFRESH_STATUS.md) for the stable handbrake
 layout, supported-display-aware 120/60 FPS policy, and emulator verification.
+
+See [OFFROAD_FIX.md](OFFROAD_FIX.md) for the Forest terrain reconstruction and
+first-entry, repeat-entry, and ground-support verification.

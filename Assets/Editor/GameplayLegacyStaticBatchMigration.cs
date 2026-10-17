@@ -16,8 +16,8 @@ using UnityEngine.SceneManagement;
 namespace RacingConversion.Editor
 {
     /// <summary>
-    /// Strict multi-scene migration for the gameplay scenes reached by the city
-    /// and airport smoke tests. It deliberately does not include Trial, Forest,
+    /// Strict multi-scene migration for the gameplay scenes reached by the city,
+    /// airport, and off-road smoke tests. It deliberately does not include Trial,
     /// City_2, Crashable, Radar, Store, or Workshop scenes.
     /// </summary>
     internal static class GameplayLegacyStaticBatchMigration
@@ -26,6 +26,13 @@ namespace RacingConversion.Editor
             "Assets/Reconstruction/Generated/GameplayLegacyStaticBatches";
         private const string BackupBase =
             "MigrationBackups/GameplayLegacyStaticBatches";
+
+        private static readonly SceneSpec ForestScene = new SceneSpec(
+            "Extreme_2Game_Forest",
+            "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Forest.unity",
+            925,
+            1259,
+            4);
 
         private static readonly SceneSpec[] SupportedScenes =
         {
@@ -65,6 +72,7 @@ namespace RacingConversion.Editor
                 20,
                 20,
                 1),
+            ForestScene,
             new SceneSpec(
                 "Extreme_2Game_Zone0",
                 "Assets/Scenes/Games/Extreme/AsyncScenes/2Game_Zone0.unity",
@@ -119,6 +127,27 @@ namespace RacingConversion.Editor
             MigrateGameplayScenesFromCommandLine();
         }
 
+        [MenuItem("Racing Conversion/Legacy Static Batches/Migrate Off-Road Scene")]
+        public static void MigrateForestSceneFromCommandLine()
+        {
+            if (!Application.isBatchMode &&
+                !EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+            {
+                Debug.Log("[GameplayLegacyStaticBatch] Off-road migration cancelled.");
+                return;
+            }
+
+            // Keep the previously migrated City and Airport scene files untouched.
+            // MigrateScene backs up the raw YAML before Unity can discard its
+            // legacy subset indices, then reopens and validates every renderer.
+            SceneMigrationResult result = MigrateScene(ForestScene);
+            if (result.validatedCount != 925)
+            {
+                throw new GameplayMigrationDataException(
+                    "Off-road migration did not validate all 925 renderer records.");
+            }
+        }
+
         public static void AnalyzeGameplayScenesFromCommandLine()
         {
             int totalRenderers = 0;
@@ -151,7 +180,7 @@ namespace RacingConversion.Editor
                     string.Join(",", records.Select(record => record.sourceMeshGuid).Distinct())));
             }
 
-            if (totalRenderers != 1998 || totalSubmeshes != 2285 || totalCombinedMeshes != 13)
+            if (totalRenderers != 2923 || totalSubmeshes != 3544 || totalCombinedMeshes != 17)
             {
                 throw new GameplayMigrationDataException(string.Format(
                     CultureInfo.InvariantCulture,
@@ -189,10 +218,10 @@ namespace RacingConversion.Editor
                 totalValidated += result.validatedCount;
             }
 
-            if (totalValidated != 1998)
+            if (totalValidated != 2923)
             {
                 throw new GameplayMigrationDataException(
-                    "Post-migration validation did not cover all 1,998 renderer records.");
+                    "Post-migration validation did not cover all 2,923 renderer records.");
             }
 
             Debug.Log(string.Format(
